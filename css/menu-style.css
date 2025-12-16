@@ -7,15 +7,18 @@
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: Helvetica, sans-serif;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
 
 /* --- Navigation Container --- */
 .navbar-container {
-    background-color: #104249;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #3C7A27;
 }
 
 .navbar {
@@ -24,16 +27,13 @@ body {
     justify-content: space-between; 
     align-items: center;
     padding: 0 20px;
-    max-width: 1200px;
-    margin: 0 auto; /* Center the navbar content */
+    width:100%;
+    height:75px;
 }
 
 /* --- Left Side: Brand/Icon --- */
-.navbar-brand a {
-    color: #ffcc00; /* Gold color for the brand name */
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 15px 0;
+.navbar-brand img {
+    width:75px;
     display: block;
 }
 
@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: flex-end; /* Align links to the right */
     align-items: center;
+    font-size:14pt;
 }
 
 .nav-links > li {
@@ -50,13 +51,13 @@ body {
 
 .nav-links a {
     display: block;
-    padding: 15px 20px;
+    padding: 15px 15px;
     color: white;
     transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #555;
+    background-color: #2f661d;
     color: #ffcc00;
 }
 
@@ -66,10 +67,9 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #444;
+    background-color: #2f661d;
     min-width: 180px;
     z-index: 10;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown:hover .submenu {
@@ -81,7 +81,7 @@ body {
 }
 
 .submenu li:hover a {
-    background-color: #666;
+    background-color: #285718;
 }
 
 /* --- Hamburger Icon (Hidden on Desktop) --- */
@@ -103,6 +103,15 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
+.donate-button{
+    margin-left:15px;
+    padding: 15px;
+    background-color:#CCC749;
+    border:none;
+    box-shadow:none;
+    font-size:14pt;
+    color:#6D6A0C;
+}
 
 /* ==================================== */
 /* --- Mobile/Tablet Responsiveness --- */
@@ -128,7 +137,7 @@ body {
         max-height: 0; /* Initially hidden */
         overflow: hidden;
         transition: max-height 0.3s ease-out;
-        background-color: #333; 
+        background-color: #3C7A27; 
         text-align: center;
         /* Position links below the brand/hamburger by setting width to 100% */
         order: 1; /* Force nav-links to the second row in the flex container */
@@ -136,7 +145,6 @@ body {
 
     .nav-links > li {
         width: 100%;
-        border-top: 1px solid #555;
     }
     
     /* Toggle menu open: Checkbox state controls visibility */
@@ -149,11 +157,15 @@ body {
         position: static; /* Stack naturally below parent */
         width: 100%;
         display: none; /* Hide by default, show with JS 'active' class */
-        background-color: #555;
+        background-color: #2f661d;
     }
 
     /* JavaScript 'active' class for mobile submenu toggle */
     .dropdown.active .submenu {
         display: block;
+    }
+
+    .donate-button{
+        display:hidden;
     }
 }

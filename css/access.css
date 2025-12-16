@@ -1,0 +1,160 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #ff8800;
+}
+
+html { height: 100%; }
+
+body {
+  min-height: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  height: 100%;
+  width: 100%;
+}
+
+/* --- Floating Button (elongated) --- */
+#accessibility-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s, transform 0.2s;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#accessibility-btn:hover {
+  background-color: #a80e0e;
+  transform: scale(1.05);
+}
+
+/* --- Popup Modal --- */
+#accessibility-popup {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  padding: 15px;
+  z-index: 999;
+}
+
+#accessibility-popup h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.accessibility-option {
+  margin-bottom: 10px;
+}
+
+.accessibility-option button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 14px;
+}
+
+
+/* --- dark Mode --- */
+.dark-mode {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --accent-color: #ff8f0e;
+}
+
+/* --- Large Text --- */
+.large-text {
+  font-size: 1.3em;
+}
+
+/* --- dyslexia --- */
+.dyslexia{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Large-Mouse{
+  cursor: url("images/50px light.png"), auto;
+}
+
+.Large-Mouse-Dark{
+  cursor: url("images/50px dark.png"), auto;
+}
+
+#move{
+    aspect-ratio: 500;
+    position: fixed;
+}
+
+#move2{
+    aspect-ratio: 500;
+    position: fixed;
+}
+
+#move3{
+    aspect-ratio: 500;
+    position: fixed;
+}
+
+#move4{
+    aspect-ratio: 500;
+    position: fixed;
+}
+
+.top{
+    background-color: black;
+     transform: translate( -50%,-105%);
+    height: 1000px;
+    z-index: 99;
+    opacity: .5;
+}
+
+.bottom{
+    background-color: black;
+     transform: translate( -50%,6%);
+    height: 1000px;
+    z-index: 99;
+    opacity: .5;
+}
+
+.back-color{
+    background: linear-gradient(
+        to right,
+        #fff59f,
+        #ff8800
+    ) ;
+    transform: translate( -50%,-500%);
+    height: 10px;
+    z-index: 100;
+}
+
+.back-color2{
+    background: linear-gradient(
+        to right,
+        #fff3ad,
+        #ff8800
+    ) ;
+    transform: translate( -50%,500%);
+    height: 10px;
+    z-index: 100;
+}
+
