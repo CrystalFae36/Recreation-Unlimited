@@ -1,0 +1,105 @@
+/* General Styling */
+
+.top-display{
+    background-size:cover;
+    background-image:url("../images/ru-top-img.jpg");
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:700px;
+}
+
+.top-bg-tint{
+    background-color: rgba(70, 70, 70, .5);
+    background-blend-mode:multiply;
+}
+
+.top-display h1, h2{
+    text-align:center;
+    font-family: 'Brush Script MT', sans-serif;
+    color:#b3b3b3;
+}
+
+.top-display h1{
+    font-size:7rem;
+}
+
+.top-display h2{
+    font-size:2.5rem;
+}
+
+/* Midnav Styling */
+
+.midnav{
+    display:flex;
+    background-color:#CCC749;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+}
+
+.midnav ul {
+    list-style:none;
+}
+
+.midnav ul > li {
+    display:inline-block;
+    font-size:1.5rem;
+    font-family:Helvetica, sans-serif;
+    text-align:center;
+    vertical-align:-webkit-baseline-middle;
+    padding:5px;
+}
+
+.midnav ul li > a {
+    color:#6D6A0C;
+}
+
+.vert-line{
+    width:8px;
+    height:40px;
+    background-color:#908C0F;
+}
+
+/* Homepage Styling */
+
+
+
+/* About Styling */
+
+footer{
+    background-color: #19400B; 
+}
+.footersec{
+    background-color: #0C2404;
+    padding: 5vw;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 3vw;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+.footer{
+    border-spacing: 2vw;
+    padding-left: 4vw;
+    padding-right:2vw;
+    
+}
+form{
+    padding-top:2vw;
+    font-size: 3vw;
+}
+input{
+    font-size: 2vw;
+    padding:.3vw;
+    border-radius: .9vw;
+    -webkit-border-radius: .9vw;
+    -moz-border-radius: .9vw;
+    -ms-border-radius: .9vw;
+    -o-border-radius: .9vw;
+}
+
+

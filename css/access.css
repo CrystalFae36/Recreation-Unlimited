@@ -93,11 +93,11 @@ body {
 }
 
 .Large-Mouse{
-  cursor: url("images/50px light.png"), auto;
+  cursor: url("../images/50px light.png"), auto;
 }
 
 .Large-Mouse-Dark{
-  cursor: url("images/50px dark.png"), auto;
+  cursor: url("../images/50px dark.png"), auto;
 }
 
 #move{

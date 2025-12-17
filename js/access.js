@@ -10,7 +10,7 @@ const move = document.getElementById("move");
 const move2 = document.getElementById("move2");
 const move3 = document.getElementById("move3");
 const move4 = document.getElementById("move4");
-const work = document.getElementsByClassName("pleasework")
+
 
 
 let isDark = false;
@@ -32,19 +32,19 @@ toggleFont.addEventListener("click", () => {
 toggleMouse.addEventListener("click", () => {
  isLarge = true;
  if(isDark){
-  document.body.classList.toggle("Large-Mouse-Dark")
+  document.html.classList.toggle("Large-Mouse-Dark")
   isMouseDark = true;
   console.log("mouse is large and dark mode")
  }
  else if(isMouseDark && !isDark)
  {
-  document.body.classList.remove("Large-Mouse-Dark")
-  document.body.classList.toggle("Large-Mouse")
+  document.html.classList.remove("Large-Mouse-Dark")
+  document.html.classList.toggle("Large-Mouse")
   isMouseDark = false;
   isLarge = true;
  }
  else{
-  document.body.classList.toggle("Large-Mouse")
+  document.html.classList.toggle("Large-Mouse")
  }
 
  if(document.body.classList.contains("Large-Mouse")){
