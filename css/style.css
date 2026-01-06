@@ -1,3 +1,11 @@
+@font-face{
+    font-family: 'Milky';
+    src: url(../fonts/milky-week/milky-week.ttf);
+    src: url(../fonts/milky-week/milky-week.otf) format("opentype");
+    src: url(../fonts/milky-week/milky-week.woff) format("woff");
+    src: url(../fonts/milky-week/milky-week.woff2) format("woff2");
+}
+
 /* General Styling */
 
 .top-display{
@@ -68,33 +76,106 @@
 /* About Styling */
 
 footer{
+     color:white;
     background-color: #19400B; 
+    position: relative;
+    top:1vw;
+   
 }
 .footersec{
+    
+    position: relative;
+    right:3vw;
+    display: inline-block;
+    margin: 1vw;
+    margin-right: 0vw;
+    width: 45vw;
     background-color: #0C2404;
     padding: 5vw;
     text-align: center;
     padding-top: 4vw;
-    font-size: 3vw;
+    font-size: 1.5vw;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
     -moz-border-radius: 3vw;
     -ms-border-radius: 3vw;
     -o-border-radius: 3vw;
 }
-.footer{
+.footerse1{
+    
+    position: relative;
+    right:3vw;
+    display: inline-block;
+    margin: 1vw;
+    margin-right: 0vw;
+    width: 45vw;
+    background-color: #0C2404;
+    padding: 5vw;
+    text-align: center;
+    padding-top: 4vw;
+    padding-bottom:3vw ;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+.footer h4{
+    font-size:3vw;
+    margin-bottom: 1.3vw;
+}
+.footer{ 
+
     border-spacing: 2vw;
     padding-left: 4vw;
-    padding-right:2vw;
-    
+    padding-right:2vw; 
+}
+.socials{
+background-color: #081702;
+border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+    margin: .2vw;
+    padding-bottom: 0vw;
+}
+.socials img{
+    display: inline-block;
+    background-color: #FFFFFF;
+    width:5.5vw;
+    border-radius: 2vw;
+    -webkit-border-radius: 2vw;
+    -moz-border-radius: 2vw;
+    -ms-border-radius: 2vw;
+    -o-border-radius: 2vw;
+    margin:2vw;
 }
 form{
+    
     padding-top:2vw;
     font-size: 3vw;
 }
 input{
+    background-color:#FFBE0D;
+    color:#534900;
+    font-size: 2.4vw;
+    padding:.5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    border-radius: .9vw;
+    -webkit-border-radius: .9vw;
+    -moz-border-radius: .9vw;
+    -ms-border-radius: .9vw;
+    -o-border-radius: .9vw;
+}
+.email {
+    background-color:white;
+    color:grey;
     font-size: 2vw;
-    padding:.3vw;
+    padding:.8vw;
+    padding-right: 6vw;
     border-radius: .9vw;
     -webkit-border-radius: .9vw;
     -moz-border-radius: .9vw;
@@ -102,4 +183,114 @@ input{
     -o-border-radius: .9vw;
 }
 
+/* HAT Styling */
+.hat-top{
+    display:flex;
+    background-color:#0B343D;
+    align-items:center;
+    justify-content:space-evenly;
+    height:40em;
+    position:relative;
+}
 
+.hat-start{
+    max-width:50em;
+}
+
+.hat-start h3, p{
+    color:white;
+    text-shadow: 0px 0px 6px rgb(255, 255, 255, 1);
+}
+
+.hat-start h3{
+    font-size:45pt;
+    font-family: 'Milky', Helvetica, sans-serif;
+}
+
+.hat-start p{
+    padding-top:10px;
+    font-size:18pt;
+    font-family:Helvetica, sans-serif;
+}
+
+.hat-fade{
+    height:200px;
+    background: linear-gradient(0deg, #73AFBB, #0B343D);
+    position:relative;
+}
+
+.hat-end{
+    background-color:#73AFBB;
+    height:1460px;
+    position:relative;
+}
+
+
+/*Camp Info Styling */
+
+.pages{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    background-color: #3C7A27;
+}
+
+.inside-page{
+    height: 600px;
+    width: 80%;
+    background-color: #2e5d1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner-page1{
+    height: 400px;
+    width: 25%;
+    background-color: #224B13;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 5%;
+}
+
+.inner-page2{
+    height: 400px;
+    width: 25%;
+    background-color: #224B13;
+    margin:5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 5%;
+}
+
+.inner-page3{
+    height: 400px;
+    width: 25%;
+    background-color: #224B13;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 5%;
+}
+.button{
+    background-color: #16300E;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  height:50px;
+  width:45%;
+  margin-top:300px;
+  border-radius: 15px;
+}
+
+.inner-page1-text{
+    
+}

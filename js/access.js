@@ -32,19 +32,19 @@ toggleFont.addEventListener("click", () => {
 toggleMouse.addEventListener("click", () => {
  isLarge = true;
  if(isDark){
-  document.html.classList.toggle("Large-Mouse-Dark")
+  document.body.classList.toggle("Large-Mouse-Dark")
   isMouseDark = true;
   console.log("mouse is large and dark mode")
  }
  else if(isMouseDark && !isDark)
  {
-  document.html.classList.remove("Large-Mouse-Dark")
-  document.html.classList.toggle("Large-Mouse")
+  document.body.classList.remove("Large-Mouse-Dark")
+  document.body.classList.toggle("Large-Mouse")
   isMouseDark = false;
   isLarge = true;
  }
  else{
-  document.html.classList.toggle("Large-Mouse")
+  document.body.classList.toggle("Large-Mouse")
  }
 
  if(document.body.classList.contains("Large-Mouse")){

@@ -83,20 +83,24 @@ body {
 }
 
 /* --- Large Text --- */
-.large-text {
+.Large-text,
+.large-text *{
   font-size: 1.3em;
 }
 
 /* --- dyslexia --- */
-.dyslexia{
+.dyslexia,
+.dyslexia *{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Large-Mouse{
+.Large-Mouse,
+.Large-Mouse *{
   cursor: url("../images/50px light.png"), auto;
 }
 
-.Large-Mouse-Dark{
+.Large-Mouse-Dark,
+.Large-Mouse-Dark *{
   cursor: url("../images/50px dark.png"), auto;
 }
 
