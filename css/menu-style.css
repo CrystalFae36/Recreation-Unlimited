@@ -104,13 +104,14 @@ body {
 }
 
 .donate-button{
-    margin-left:15px;
+    margin-left:5px;
     padding: 15px;
     background-color:#CCC749;
     border:none;
     box-shadow:none;
     font-size:14pt;
     color:#6D6A0C;
+    cursor:pointer;
 }
 
 /* ==================================== */
