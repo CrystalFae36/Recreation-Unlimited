@@ -27,7 +27,6 @@ toggleText.addEventListener("click", () => {
 
 toggleFont.addEventListener("click", () => {
   document.body.classList.toggle("dyslexia");
-  document.getElementsByClassName("midnav").style.fontSize
 });
 
 toggleMouse.addEventListener("click", () => {
