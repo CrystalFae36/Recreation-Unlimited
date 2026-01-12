@@ -7,8 +7,11 @@
 }
 
 @font-face{
-    font-family: 'Flywheel';
-    src: url(../fonts/flywheel/Flywheel.otf) format("opentype");
+    font-family: 'Hope Take';
+    src: url(../fonts/hope-take/hope-take.ttf);
+    src: url(../fonts/hope-take/hope-take.otf) format("opentype");
+    src: url(../fonts/hope-take/hope-take.woff) format("woff");
+    src: url(../fonts/hope-take/hope-take.woff2) format("woff2");
 }
 
 /* General Styling */
@@ -19,7 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
+    height: 43.75em;
 }
 
 .top-bg-tint {
@@ -30,7 +33,7 @@
 .top-display h1,
 h2 {
     text-align: center;
-    font-family: 'Flywheel', sans-serif;
+    font-family: 'Hope Take', sans-serif;
     color: #b3b3b3;
 }
 
@@ -42,9 +45,35 @@ h2 {
     font-size: 2.5rem;
 }
 
+/*msg page top style */
+.top-display-msg {
+    background-size: cover;
+    background-image: url("../images/directors-sunrise.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 43.75em;
+}
+
+.top-display-msg h1,
+h2 {
+    text-align: center;
+    font-family: 'Hope Take', sans-serif;
+    color: #b3b3b3;
+}
+
+.top-display-msg h1 {
+    font-size: 7rem;
+}
+
+.top-display-msg h2 {
+    font-size: 2.5rem;
+}
+
 /* Midnav Styling */
 
 .midnav {
+    position:relative;
     display: flex;
     background-color: #CCC749;
     height: 50px;
@@ -77,19 +106,179 @@ h2 {
 
 /* Homepage Styling */
 
+.homepg-happen-container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:50em;
+    background-color:#CCC849;
+}
+
+.happen-label{
+    margin-top:10p;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:5em;
+    color:#504E0B;
+}
+
+.homepg-happen-microwave{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom:10px;
+}
+
+.homepg-news-container{
+    background-color:#EBE8A1;
+    height:40em;
+    width:80em;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.homepg-news-txt-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width:40em;
+}
+
+.homepg-news-txt-container h2{
+    font-family: Helvetica, sans-serif;
+    font-size:3em;
+    color:#504E0B;
+    text-align:left;
+}
+
+.homepg-news-txt-container p{
+    margin-top:15px;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    color:#504E0B;
+}
+
+.homepg-news-img{
+    width:500px;
+    height:auto;
+}
+
+.happen-btn{
+    background-color:rgb(114, 108, 55, .5);
+    margin-left:30px;
+    margin-right:30px;
+    height:1.5em;
+    width:1.5em;
+    border-radius:30px;
+    border-style:none;
+    color:#FFFFFF;
+    font-size:30pt;
+    font-style:bold;
+}
+
+.homepage-mission{
+    display: flex;
+    height: 45em;
+    width: 100%;
+    background-color: #73AFBB;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-mission-background{
+    display: flex;
+    height: 30em;
+    width: 85%;
+    background-color: #ADDAE3;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-mission-background-title{
+    text-align: center;
+    font-size:20pt;
+    width: 80%;
+}
+
+.home-page-mission-background-text{
+    text-align: center;
+    font-size:25pt;
+    width: 80%;
+}
+
+.camper-reviews{
+    display: flex;
+    height: 45em;
+    width: 100%;
+    background-color: #3C7A27;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camper-reviews-title{
+    text-align: center;
+    padding-bottom:.75em;
+    font-size:50pt;
+    width: 80%;
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#F6F1C5;
+}
+
+.camper-reviews-background{
+    display: flex;
+    height: 30em;
+    width: 85%;
+    background-color: #2E5E1E;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.camper-review-columes{
+    height: 25em;
+    width: 22.5%;
+    background-color: #224B13;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    border-radius: 5%;
+    align-items: center;
+    text-align:center;
+}
+
+.review-name{
+    font-size:3em;
+    font-family:'Milky', Helvetica, sans-serif;
+    width: 80%;
+    color:#CFCAA5;
+}
+
+.review-text{
+    font-size:1.2em;
+    width: 80%;
+    color:#CFCAA5;
+    font-family:Helvetica, sans-serif;
+}
+
+
 
 
 /* About Styling */
 
-footer {
+footer{
+    display:flex;
     color: rgb(255, 255, 255);
     background-color: #19400B;
-    position: relative;
-    top: 1vw;
-
 }
 
 footer p{
+    font-family:'Milky', Helvetica, sans-serif;
     color: rgb(255, 255, 255);
 
 }
@@ -114,9 +303,9 @@ footer p{
 }
 
 .footerse2 {
-
+    font-family:'Milky', Helvetica, sans-serif;
     position: relative;
-    top: 2.7vw;/**/
+    top:2vw;/**/
     display: inline-block;
     margin: 1vw;
     margin-right: 0vw;
@@ -135,6 +324,7 @@ footer p{
 }
 
 .footer h4 {
+    font-family:'Milky', Helvetica, sans-serif;
     font-size: 3vw;
     margin-bottom: 1.3vw;
 }
@@ -148,7 +338,6 @@ footer p{
 
 .socials {
     display: inline-block;
-    top: -2vw;
     background-color: #081702;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
@@ -171,6 +360,8 @@ footer p{
     -ms-border-radius: 2vw;
     -o-border-radius: 2vw;
     margin: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 form {
@@ -180,6 +371,7 @@ form {
 }
 
 input {
+    font-family:'Milky', Helvetica, sans-serif;
     background-color: #FFBE0D;
     color: #534900;
     font-size: 2.4vw;
@@ -214,20 +406,29 @@ footer a{
     margin-top: .4vw;
  margin-bottom: 1vw;
 }
-.bottomnav a{   
-    font-size: 1.7vw;
- margin-right: 8vw;
- margin-left: 7vw;
- margin-top: 1.5vw;
- margin-bottom: 1.5vw;
+.bigcategory{   
+
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 2vw;    
+    margin-left: 5vw;
+
 }
-.bottomnav1 a{    
- margin-right: 12vw;
- margin-left: 5vw;
+.smallcategory{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;    
 }
-.bottomnav2 a{
- margin-right: 11.4vw;
- margin-left: 5.6vw;
+.smallcategory a{
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size: 2.5vw;
+    color:rgb(200, 200, 200);
+}
+.footertopper a{
+    color:white;
+    font-size: 3.5vw;
 }
 
 
@@ -251,20 +452,19 @@ footer a{
     max-width: 50em;
 }
 
-.hat-start h3, p {
-    color: white;
-    text-shadow: 0px 0px 4px rgb(255, 255, 255, 1);
-}
-
 .hat-start h3 {
     font-size: 45pt;
     font-family: 'Milky', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255, 1);
 }
 
 .hat-start p {
     padding-top: 15px;
     font-size: 18pt;
     font-family: Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255, 1);
 }
 
 .hat-fade {
@@ -391,15 +591,33 @@ footer a{
     align-items: center;
 }
 
-
+.whats-going-on{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: #ADDAE3;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 /*Message from our Director */
+.message-container{
+    display: flex;
+    height: 90em;
+    width: 100%;
+    background-color: #0B343D;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
 .background-message-from-our-director{
+    position:relative;
     display: flex;
-    height: 75em;
+    height: 100em;
     width: 100%;
     background-color: #0B343D;
     flex-direction:column;
@@ -419,8 +637,17 @@ footer a{
 }
 
 .message-from-our-director-donate-button{
-    justify-content: center;
-    align-items: center;
     width:150px;
     height:3.5%;
+    border-radius:3em;
+    background-color:#1D5C68;
+    border-style:none;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:1.5em;
+    color:#ADDAE3;
 }
+
+.message-from-our-director-donate-button:hover{
+    background-color:#2B6E7B;
+}
+

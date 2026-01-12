@@ -83,11 +83,48 @@ body {
 }
 
 /* --- Large Text --- */
-.Large-text,
-.large-text *{
-  font-size: 1.3em !important;
+.large-text .top-text{
+  font-size: 12em !important;
 }
-
+.large-text .slogan{
+  font-size: 4em;
+}
+.large-text a{
+  font-size: 1.5em;
+}
+.large-text h1{
+  font-size: 3em;
+}
+.large-text .dream{
+  font-size: 5em;
+}
+ .large-text .home-page-mission-background-text{
+  font-size: 2.5em;
+ }
+  .large-text .home-page-mission-background-title{
+  font-size: 2.2em;
+ }
+ .large-text .GNF{
+   font-size: 4em;
+ }
+ .large-text .happen-label{
+  font-size: 6em;
+ }
+ .large-text .tom{
+   font-size: 2em;
+ }
+ .large-text .camper-reviews-title{
+   font-size: 2.2em;
+ }
+  .large-text .review-text{
+   font-size: 1.4em;
+ }
+ .large-text .review-name{
+   font-size: 2.5em;
+ }
+ .large-text .history{
+  font-size: 1.8em;
+ }
 /* --- dyslexia --- */
 .dyslexia,
 .dyslexia *{
