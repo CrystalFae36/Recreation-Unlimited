@@ -269,7 +269,7 @@ h2 {
 
 
 
-/* About Styling */
+/* footer Styling */
 
 footer{
     display:flex;
@@ -527,73 +527,81 @@ footer a{
 
 .camps-section {
     display: flex;
-    height: 800px;
+    height: 47vw;
     width: 100%;
     background-color: #3C7A27;
     flex-direction:column;
     justify-content: space-between;
     align-items: center;
 }
-
-.camps-container-full{
-    height: 600px;
-    width: 80%;
-    background-color: #2e5d1e;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.camps-section h2{
-    font-family: 'Milky', Helvetica, sans-serif;
-    font-size:4em;
-    padding-top:.5em;
+.camps-section h1{
+    font-size: 5vw;
+    font-family:'Milky', Helvetica, sans-serif;
     color:#F6F1C5;
+    margin:.5vw;
 }
+.camps-section h2{
+    font-size: 3vw;
+    font-family:'Milky', Helvetica, sans-serif;
 
-.indiv-camp{
-    height: 400px;
-    width: 25%;
-    background-color: #224B13;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5%;
+    margin:.5vw;
 }
-
-.button {
-    background-color: #16300E;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+.camps_bigcontain{
+    position: relative;
+    /*bottom:19vw;*/
+    display:flex;
+    background-color: #2E5E1E;
+    width: 70%;
+    margin-bottom: 4vw;
+}
+.camps_smallcontain{
+    font-family:'Milky', Helvetica, sans-serif;
+    padding-top:.5vw;
+    background-color:rgb(52, 143, 34);
+    width: 30%;
+     position: relative;
+    display: inline-block;
+    margin: 1vw;
+    padding: 5vw;
+    padding-top:2vw;
+    padding-bottom:2vw;
     text-align: center;
-    height: 50px;
-    width: 45%;
-    margin-top: 300px;
-    border-radius: 15px;
-    flex-shrink: 0;
-}
+    font-size: 1.2vw;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
 
-.camp-name {
-    text-align: center;
-    width: 100px;
 }
+ .camps_smallcontain button{
+    padding: .6vw;
+    padding-right:2.2vw;
+    font-family:'Milky', Helvetica, sans-serif;
+    padding-left:2.2vw;
+    font-size: 1.5vw;
+    background-color: #d0dbdd;
+     border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;color:red;
+    -o-border-radius: 3vw;
+ }
+
 
 .see-our-camps{
     display: flex;
-    height: 800px;
+    height: 40vw;
     width: 100%;
     background-color: #FFFBDB;
     flex-direction:column;
-    justify-content: center;
+    justify-content: center
     align-items: center;
 }
 
 .whats-going-on{
     display: flex;
-    height: 800px;
+    height: 40vw;
     width: 100%;
     background-color: #ADDAE3;
     flex-direction:column;
@@ -651,3 +659,176 @@ footer a{
     background-color:#2B6E7B;
 }
 
+
+
+
+
+
+
+/* Meet The Team */
+
+.meet-the-team{
+    display: flex;
+    height: 100em;
+    width: 100%;
+    background-color: #3C7A27;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meet-the-team-columns{
+    display: flex;
+    height: 25em;
+    width: 59%;
+    background-color: #1D4A0D;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.meet-the-team-column-picture{
+    display: flex;
+    height: 20em;
+    width: 30%;
+    background-color: #295f155d;
+    border-radius: 50px;
+    
+}
+
+.meet-the-team-column-text-box{
+    display: flex;
+    height: 20em;
+    width: 50%;
+    background-color: #295f155d;
+    border-radius: 50px;
+    flex-direction:column;
+    align-items: center;
+    text-align:left;
+    justify-content: center;
+    
+}
+
+
+.meet-the-team-column-text-firstname-lastname{
+    font-size:3em;
+    font-family:'Milky', Helvetica, sans-serif;
+    width: 80%;
+    color:#CFCAA5;
+}
+
+.meet-the-team-column-text{
+    font-size:1.2em;
+    width: 80%;
+    color:#CFCAA5;
+    font-family:Helvetica, sans-serif;
+}
+.review-name{
+    font-size:3em;
+    font-family:'Milky', Helvetica, sans-serif;
+    width: 80%;
+    color:#CFCAA5;
+}
+
+
+
+
+/* About Styling*/
+.about-history-container{
+    background-image: url(../images/ru-sunrise.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:40em;
+}
+
+.about-history-container-tint{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.about-history-bg{
+    background-color:#0E4729;
+    height:40em;
+    width:50em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-history-txt-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:13em;
+}
+
+.about-history-txt-container h1{
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:60pt;
+    color:#FFFBDB;
+}
+
+.about-history-txt-container button{
+    height:2em;
+    width:5.5em;
+    color:#534900;
+    border-radius:1em;
+    border-style:none;
+    background-color:#FFBE0D;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:25pt;
+}
+
+
+
+
+
+
+
+
+
+
+/*Events Page Styling*/
+
+.events-page{
+    display: flex;
+    height: 100em;
+    width: 100%;
+    background-color: #3C7A27;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.events-page-background{
+    display: flex;
+    height: 90em;
+    width: 90%;
+    background-color: #1D4A0D;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.events-page-text{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-page-title{
+    font-size:6em;
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#CFCAA5;
+}
+
+.events-page-picture{
+    display: flex;
+    height: 30em;
+    width: 30%;
+    background-color: #888987;
+    border-radius: 50px;
+}
