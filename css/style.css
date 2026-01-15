@@ -592,15 +592,17 @@ footer a {
 
 }
 
-.camps_smallcontain button {
+.camps_smallcontain button {                                                                                                                                                                              
     padding: .6vw;
     padding-right: 2.2vw;
     font-family: 'Milky', Helvetica, sans-serif;
     padding-left: 2.2vw;
     font-size: 1.5vw;
     color: #CFCAA5;
+    border-style: solid;
     background-color: #16300E;
-    border-color: #16300E;
+    border-color: #021e02;
+    border-width: .35vw;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
     -moz-border-radius: 3vw;
@@ -716,14 +718,83 @@ footer a {
 
 .whats-going-on {
     display: flex;
-    height: 40vw;
+    height: 47vw;
     width: 100%;
     background-color: #ADDAE3;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.whats-going-on h1 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    text-align: center;
+    color:#5C878F;
+    font-size: 4vw;
+    margin-bottom: 1VW;
+}
 
+.whats-going-on h2 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    text-align: center;
+    color:#4E4E4E;
+    font-size: 3.5vw;
+    margin-bottom: 1VW;
+}
+
+.whats-going-on h3 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    text-align: center;
+    color:   #464545;
+    font-size: 5vw;
+    margin-top: 1.5VW;
+    margin-bottom:1vw ;
+}
+
+.wgo_bigcontain{
+    display: flex;
+    width: 80%;
+}
+
+.wgo_smallcontain{
+    color: #808080;
+    font-family: 'Milky', Helvetica, sans-serif;
+    padding-top: .5vw;
+    background-color: white;
+    width: 35%;
+    position: relative;
+    display: inline-block;
+    margin: 1vw;
+    padding: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    font-size: 1vw;
+    border-radius:1vw;
+    -webkit-border-radius:1vw;
+    -moz-border-radius:1vw;
+    -ms-border-radius:1vw;
+    -o-border-radius:1vw;
+}
+.wgo_smallcontain button{
+      margin-top: 2.5vw;
+    color:#4E4E4E;
+    background-color:#B4B4B4 ;
+    border-width: .6vw;
+    font-family: 'Milky', Helvetica, sans-serif;
+    font-size: 3vw;
+    padding: 1.5vw;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+    border-right-color: #c3f5ff;
+    border-left-color: #a6d0d8;;
+    border-top-color: #a6d0d8;
+    border-bottom-color: #c3f5ff;
+    border-radius: 2vw;
+    -webkit-border-radius: 2vw;
+    -moz-border-radius: 2vw;
+    -ms-border-radius: 2vw;
+    -o-border-radius: 2vw;
+}
 
 
 /*Message from our Director */
@@ -964,6 +1035,7 @@ footer a {
 
 
 
+
 .about-message-from-our-director{
     background-color: #E2DD52;
     height:40em ;
@@ -978,6 +1050,7 @@ footer a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width:100%;
 }
 
 .about-message-from-our-director-image-container{
@@ -986,17 +1059,17 @@ footer a {
     width:25em;
     display: flex;
     justify-content:space-around ;
-    align-items: flex-start;
     border-radius:20%;
     padding: 25px;
+    
 }
 
 .about-message-from-our-director-image{
     display: flex;
+    justify-content: space-around;
     height: 17em;
     width: 80%;
     background-color: #888987;
-    justify-content: space-around;
     border-radius:50px;
 }
 
@@ -1022,8 +1095,8 @@ footer a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.09em;
-    width: 50em;
+    font-size: 1.9em;
+    width:30em;
     color: #6D6A0C;
     font-family: Helvetica, sans-serif;
 }
@@ -1089,6 +1162,7 @@ footer a {
 
 hr {
     width: 89%;
+    border:none;
     border-top: 5px dashed #CFCAA5;
 }
 
@@ -1113,11 +1187,35 @@ hr {
     justify-content:space-around;
     align-items:center;
     background-color:#2B6119;
-    height:100em;
+}
+
+.news-accord-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.news-accord-group{
+    margin:50px;
 }
 
 .news-container{
     background-color:#153A08;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    justify-content:space-around;
+    align-items:center;
+    max-width:1554px;
+}
+
+.news-container hr{
+    margin-top:15px;
+}
+
+.news-container p{
+    color:#F6F1C5;
+    margin:15px 50px;
 }
 
 .news-accord{
@@ -1153,6 +1251,7 @@ hr {
     padding:8px 16px;
     text-decoration:none;
     transition:background-color .3s;
+    margin-bottom:50px;
 }
 
 .pagination a.active{

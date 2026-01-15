@@ -139,11 +139,25 @@ document.body.onpointermove = event => {
 document.getElementById("hide").style.display = "none";
 
 readingMask.addEventListener("click", () => {
-  document.body.classList.toggle("reading-Mask");
-  if(document.body.classList.contains("reading-Mask")){
+  let readMask = sessionStorage.getItem("readMask");
+ if(readMask != "1"){
+    sessionStorage.setItem("readMask", "1");
+    
+      document.body.classList.add("reading-Mask");
+      document.getElementById("hide").style.display = "contents";
+  }
+  else{
+    sessionStorage.setItem("readMask", "0");
+      document.getElementById("hide").style.display = "none";
+  }
+
+console.log(readMask);
+});
+
+// On page load, check if it should be active
+window.onload = () => {
+  if (sessionStorage.getItem("readMask") === "1") {
+    document.body.classList.add("reading-Mask");
     document.getElementById("hide").style.display = "contents";
   }
-else{
-  document.getElementById("hide").style.display = "none";
-}  
-});
+};
