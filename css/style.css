@@ -847,8 +847,21 @@ footer a {
 
 
 
+/* support us */
 
+.support_us{
+    height: 6000px; /* Used to enable scrolling */
+  background: linear-gradient(180deg, rgb(90, 203, 237) 0%, #1979cd 60%, #0a3b7c 75%); 
+}
+.sus_donate{
+    display: flex; 
+}
 
+.sus_donate_sun{
+    position: relative;
+    left:75vw;
+    bottom:30vw
+}
 
 
 /* Meet The Team */
@@ -1101,6 +1114,38 @@ footer a {
     font-family: Helvetica, sans-serif;
 }
 
+.about-contact-us-background{
+    background-color: #65BFDB;
+    height:40em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-contact-us-image-container{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-contact-us-tree{
+    display: flex;
+    height:600px;
+    align-items: center;
+}
+
+.about-contact-us-soil{
+    display:flex;
+    position: absolute; 
+    top:421px;
+    width:670px;
+    height:200px;
+    align-items: center;
+}
+
+
 
 
 /*Events Page Styling*/
@@ -1261,3 +1306,5 @@ hr {
 .pagination a:hover:not(active){
     background-color:#153A08;
 }
+
+

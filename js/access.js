@@ -22,7 +22,17 @@ button.addEventListener("click", () => {
 });
 
 toggleText.addEventListener("click", () => {
-  document.body.classList.toggle("large-text");
+  let bigText = sessionStorage.getItem("bigText");
+  if(bigText != "1"){
+    sessionStorage.setItem("bigText", "1");
+     document.body.classList.add("large-text");
+  }
+
+  else{
+    sessionStorage.setItem("bigText", "0");
+    document.body.classList.remove("large-text");
+  }
+ 
 });
 
 toggleFont.addEventListener("click", () => {
@@ -159,5 +169,8 @@ window.onload = () => {
   if (sessionStorage.getItem("readMask") === "1") {
     document.body.classList.add("reading-Mask");
     document.getElementById("hide").style.display = "contents";
+  }
+  if (sessionStorage.getItem("bigText") === "1") {
+    document.body.classList.add("large-text")
   }
 };
