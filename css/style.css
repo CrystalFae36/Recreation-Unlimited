@@ -850,8 +850,8 @@ footer a {
 /* support us */
 
 .support_us{
-    height: 6000px; /* Used to enable scrolling */
-  background: linear-gradient(180deg, rgb(90, 203, 237) 0%, #1979cd 60%, #0a3b7c 75%); 
+    height: 200vw; /* Used to enable scrolling */
+  background: linear-gradient(180deg, rgb(90, 203, 237) 0%, #1266af 40%, #0a3b7c 75%); 
 }
 .sus_donate{
     display: flex; 
@@ -859,8 +859,18 @@ footer a {
 
 .sus_donate_sun{
     position: relative;
-    left:75vw;
-    bottom:30vw
+    left:71vw;
+}
+.sus_donate_tree img{
+    position: relative;
+    top:32vw;
+    right:50vw;
+    width:125vw;
+}
+.sus_donate_clowd{
+    position: relative;
+    top:30vw;
+    right:150vw;
 }
 
 
@@ -1140,7 +1150,6 @@ footer a {
     display:flex;
     position: absolute; 
     top:421px;
-    width:670px;
     height:200px;
     align-items: center;
 }
