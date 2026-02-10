@@ -824,6 +824,8 @@ footer a {
     text-align: center;
     font-size: 20pt;
     width: 80%;
+    color:#FFFFFF;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255, 40);
 }
 
 .message-from-our-director-image {
@@ -851,8 +853,8 @@ footer a {
 /* support us */
 
 .support_us{
-    height: 170vw; /* Used to enable scrolling */
-  background: linear-gradient(180deg, rgb(90, 203, 237) 0%, #1266af 40%, #0a3b7c 75%); 
+    height: 165vw; /* Used to enable scrolling */
+  background: linear-gradient(180deg, rgb(90, 203, 237) 20%, #1266af 40%, rgb(34, 86, 154) 75%); 
 }
 .sus_donate{
     display: flex; 
@@ -863,11 +865,11 @@ footer a {
 .sus_donate_sun{
     position: relative;
     left:195.6vw;
-}
+} 
 .sus_donate_tree img{
     position: relative;
     top:32vw;
-    left:71vw;
+    left:70.4vw;
     /*right:125vw; */
     width:125vw;
 }
@@ -883,23 +885,42 @@ footer a {
     text-align: center;
     font-family: 'Hope Take', Helvetica, sans-serif;;
 }
+
 .sus_seasonal{
     position: relative;
     top:30.6vw;
+    right:125vw;
+}
+.sus_seasonal_clouds{
+    position: relative;
+    left:122.3vw;
 }
 .sus_seasonal_button{
     position: relative;
     top:5vw;
-    left:32vw;
+    left:157vw;
+    width:45vw;
+}
+.sus_seasonal_text{
+    color: #B18A0C;
+    position: relative;
+    font-size: 4vw;
+    bottom:27vw;
+    right:18vw;
+    text-align: right;
+    font-family: 'Hope Take', Helvetica, sans-serif;;
 }
 .sus_volenteer{
     position: relative;
-    top:35vw;
+    top:26vw;
+    right:3vw;        
+    right:125vw;
 }
 .sus_volenteer_button{
     position: relative;
-    top:7vw;
-    left:32vw;
+    left:157vw;
+    top:2vw;
+    width:45vw;
 }
 
 /* Meet The Team */
@@ -1431,7 +1452,7 @@ hr {
 
 .contact-bg{
     background-color:#2B6119;
-    height:1030px;
+    height:900px;
     width:100%;
     display:flex;
     flex-direction:column;
@@ -1445,6 +1466,7 @@ hr {
     justify-content:space-around;
     align-items:center;
     width:100em;
+    margin:1.5em;
 }
 
 .contact-head-container h1{
@@ -1472,7 +1494,7 @@ hr {
 }
 
 .midline{
-    height:40em;
+    height:38em;
     border-left:dashed #FFFBDB;
 }
 
@@ -1480,9 +1502,44 @@ hr {
     display:flex;
     flex-direction:column;
     justify-content:space-around;
+    align-items:center;
     width:55em;
-    height:30em;
+    height:31em;
+    font-size:15pt;
 }
+
+.contact-phone-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    width:30em;
+}
+
+.contact-fax-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    width:30em;
+}
+.contact-fax-numbers{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-email-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    width:20em;
+}
+
+.contact-email-container h2{
+    padding-left:3.5em;
+}
+
 .contact-right-container h2{
     color:#FFFBDB;
 }
@@ -1534,8 +1591,19 @@ hr {
     background-color:#FFBE0D;
     color:#534900;
     width:4em;
+    padding-left:1.1em;
     border-radius:10px;
     border:none;
     font-size:25pt;
     text-align:center;
+    vertical-align:center;
+}
+
+.contact-fax-logo{
+    padding-left:10px;
+}
+
+.contact-logos{
+    height:auto;
+    width:10%;
 }
