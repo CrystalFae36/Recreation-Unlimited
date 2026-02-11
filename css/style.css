@@ -1062,9 +1062,10 @@ footer a {
 }
 
 .about-mtt-head-container h2 {
-    font-size: 30pt;
+    font-size: 50pt;
     color: #408897;
     font-family: 'Milky', Helvetica, sans-serif;
+    padding-bottom:1em;
 }
 
 .about-mtt-inner-container-up {
@@ -1085,21 +1086,22 @@ footer a {
 
 .about-mtt-inner-container-picture {
     background-color: #555555;
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 10em;
     border-radius: 50%;
     display: flex;
 }
 
 .about-mtt-button {
-    height: 2.2em;
-    width: 5.7em;
-    color: #534900;
-    border-radius: 1em;
+    height: 2em;
+    width: 7.5em;
+    color: #66a2ad;
+    border-radius: .75em;
     border-style: none;
-    background-color: #FFBE0D;
+    background-color: #ffffff;
     font-family: 'Milky', Helvetica, sans-serif;
-    font-size: 25pt;
+    font-weight:bold;
+    font-size: 30pt;
     cursor: pointer;
 }
 
@@ -1108,7 +1110,7 @@ footer a {
 
 
 
-.about-message-from-our-director{
+.about-mfod{
     background-color: #E2DD52;
     height:40em ;
     display: flex;
@@ -1117,15 +1119,15 @@ footer a {
     align-items: center;
 }
 
-.about-message-from-our-director-container{
+.about-mfod-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width:100%;
 }
 
-.about-message-from-our-director-image-container{
+.about-mfod-image-container{
     background-color: #EBE8A1;
     height: 30em;
     width:25em;
@@ -1136,7 +1138,7 @@ footer a {
     
 }
 
-.about-message-from-our-director-image{
+.about-mfod-image{
     display: flex;
     justify-content: space-around;
     height: 17em;
@@ -1145,15 +1147,16 @@ footer a {
     border-radius:50px;
 }
 
-.about-message-from-our-director-text-container{
-    width:400px ;
+.about-mfod-text-container{
+    width:50em;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height:30em;
 }
 
-.about-message-from-our-director-text-head{
+.about-mfod-text-head{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1163,14 +1166,25 @@ footer a {
     color: #6D6A0C;
 }
 
-.about-message-from-our-director-text{
+.about-mfod-text{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.9em;
+    font-size: 20pt;
     width:30em;
     color: #6D6A0C;
     font-family: Helvetica, sans-serif;
+}
+
+.about-mfod-button{
+    height:1.5em;
+    width:5.25em;
+    font-size:30pt;
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#534900;
+    background-color:#fffdb7;
+    border-radius:.5em;
+    border:none;
 }
 
 .about-events{
@@ -1606,4 +1620,104 @@ hr {
 .contact-logos{
     height:auto;
     width:10%;
+}
+
+/* Leasing page styling */
+.lease-blurb-bg{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50em;
+}
+.lease-blurb-container{
+    background-color:#1D4A0D;
+    height:40em;
+    width:90em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+}
+.lease-head-container{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items: center;
+    width:50em;
+}
+.lease-head-container h2{
+    color:#FFFBDB;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:50pt
+}
+.lease-blurb-text{
+    color:#FFFBDB;
+    font-family:Helvetica, sans-serif;
+    font-size:17pt;
+    width:30em;
+}
+.lease-blurb-top-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:77.5em;
+}
+.lease-blurb-bottom-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:77.5em;
+}
+.lease-blurb-subtext-container{
+    color:#FFFBDB;
+    font-family:Helvetica, sans-serif;
+    font-size:17pt;
+    text-align: center;
+}
+
+.lease-explore-bg-container{
+    display:flex;
+    height:45em;
+    justify-content:right;
+}
+.lease-explore-container{
+    background-color:#0E4729;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.lease-explore-container h2{
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#FFFBDB;
+    font-weight:normal;
+    font-size:50pt;
+}
+
+.lease-button{
+    width:5em;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:30pt;
+}
+
+.lease-program-bg-container{
+    display:flex;
+    height:45em;
+}
+.lease-program-container{
+    background-color:#0E4729;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.lease-program-container h2{
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#FFFBDB;
+    font-weight:normal;
+    font-size:50pt;
 }
