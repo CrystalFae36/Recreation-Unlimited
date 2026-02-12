@@ -274,13 +274,13 @@ h2 {
 
 footer {
     display: flex;
-    color: rgb(255, 255, 255);
+    color: #FFFBDB;
     background-color: #19400B;
 }
 
 footer p {
     font-family: 'Milky', Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #FFFBDB;
 
 }
 
@@ -308,7 +308,6 @@ footer p {
     font-family: 'Milky', Helvetica, sans-serif;
     position: relative;
     top: 2vw;
-    /**/
     display: inline-block;
     margin: 1vw;
     margin-right: 0vw;
@@ -404,7 +403,7 @@ input {
 footer a {
 
     display: inline-block;
-    color: white;
+    color: #FFFBDB;
     font-size: 1vw;
     font-weight: bolder;
     margin-top: .4vw;
@@ -431,11 +430,11 @@ footer a {
 .smallcategory a {
     font-family: 'Milky', Helvetica, sans-serif;
     font-size: 2.5vw;
-    color: rgb(200, 200, 200);
+    color: #FFFBDB;
 }
 
 .footertopper a {
-    color: white;
+    color: #FFFBDB;
     font-size: 3.5vw;
 }
 
@@ -600,6 +599,7 @@ footer a {
     padding-left: 2.2vw;
     font-size: 1.5vw;
     color: #CFCAA5;
+    cursor:pointer;
     border-style: solid;
     background-color: #16300E;
     border-color: #021e02;
@@ -633,6 +633,7 @@ footer a {
     border-width: .3vw;
     font-family: 'Milky', Helvetica, sans-serif;
     position: relative;
+    cursor:pointer;
     left:36.5vw;
     font-size: 3vw;
     padding: .5vw;
@@ -784,6 +785,7 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     font-size: 3vw;
     padding: 1.5vw;
+    cursor:pointer;
     padding-right: 2.5vw;
     padding-left: 2.5vw;
     border-right-color: #c3f5ff;
@@ -842,6 +844,7 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     font-size: 1.5em;
     color: #ADDAE3;
+    cursor:pointer;
 }
 
 .message-from-our-director-donate-button:hover {
@@ -900,6 +903,7 @@ footer a {
     top:5vw;
     left:157vw;
     width:45vw;
+    cursor:pointer;
 }
 .sus_seasonal_text{
     color: #B18A0C;
@@ -921,6 +925,7 @@ footer a {
     left:157vw;
     top:2vw;
     width:45vw;
+    cursor:pointer;
 }
 
 /* Meet The Team */
@@ -1188,6 +1193,7 @@ footer a {
 }
 
 .about-events{
+    display:flex;
     background-color: #ADDAE3;
     height:40em ;
     display: flex;
@@ -1203,9 +1209,17 @@ footer a {
     align-items: center;
 }
 
-.about-events-organization-events{
+.about-events-text-organization{
+    margin:10em;
+}
+.about-events-organization-events-text{
+    
+    display:flex;
     font-size: 5em;
+    color:white;
+    justify-content: center;
     align-items: center;
+    height: 100vh; 
 }
 
 .about-events-organization-light-green{
@@ -1222,8 +1236,8 @@ footer a {
 
 .about-events-organization-dark-green{
     background-color:#153A08;
-    width:400px;
-    height:400px;
+    width:435px;
+    height:435px;
     border-radius: 1em;
 }
 
@@ -1628,11 +1642,11 @@ hr {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:50em;
+    height:60em;
 }
 .lease-blurb-container{
     background-color:#1D4A0D;
-    height:40em;
+    height:55em;
     width:90em;
     display:flex;
     flex-direction:column;
@@ -1664,12 +1678,24 @@ hr {
     align-items:center;
     width:77.5em;
 }
+
+.lease-blurb-img-top{
+    height:auto;
+    width:20%;
+}
+
 .lease-blurb-bottom-container{
     display:flex;
     justify-content:space-evenly;
     align-items:center;
     width:77.5em;
 }
+
+.lease-blurb-img-bottom{
+    height:auto;
+    width:25%;
+}
+
 .lease-blurb-subtext-container{
     color:#FFFBDB;
     font-family:Helvetica, sans-serif;
@@ -1681,7 +1707,13 @@ hr {
     display:flex;
     height:45em;
     justify-content:right;
+    background-image:url(../images/ru-front-fall-view.jpg);
 }
+.lease-bg-tint{
+    background-color: rgba(70, 70, 70, .5);
+    background-blend-mode: multiply;
+}
+
 .lease-explore-container{
     background-color:#0E4729;
     width:50%;
@@ -1699,13 +1731,20 @@ hr {
 
 .lease-button{
     width:5em;
+    height:1.5em;
     font-family:'Milky', Helvetica, sans-serif;
     font-size:30pt;
+    background-color:#FFBE0D;
+    border:none;
+    border-radius:1em;
+    color:#534900;
+    cursor:pointer;
 }
 
 .lease-program-bg-container{
     display:flex;
     height:45em;
+    background-image: url(../images/canoe.png)
 }
 .lease-program-container{
     background-color:#0E4729;
@@ -1720,4 +1759,98 @@ hr {
     color:#FFFBDB;
     font-weight:normal;
     font-size:50pt;
+}
+
+.lease-addition-container{
+    background-color:#2B6119;
+    height:50em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.lease-addition-bg-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:115em;
+    height:45em;
+    background-color:#1D4A0D;
+}
+
+.lease-addition-container h2{
+    color:#FFFBDB;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:60pt;
+}
+
+.lease-addition-button{
+    font-size:30pt;
+    font-family:'Milky', Helvetica, sans-serif;
+    color:#534900;
+    height:1.5em;
+    width:5.2em;
+    background-color:#FFBE0D;
+    border-radius:.75em;
+    border:none;
+    cursor:pointer;
+    margin-top:2.5em;
+}
+
+/*Facilities Styling*/
+
+
+
+
+
+/*Programs styling*/
+
+
+
+/* Volunteer Opportunities page styling */
+
+.volunteer-opportunities-page{
+   background-color: #2B6119;
+    height:60em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volunteer-opportunities-page-organization{
+    background-color: #1D4A0D;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    align-items: center;
+    height:40em ;
+    width:75em;
+}
+
+.volunteer-opportunities-page-organization-1{
+    color:#F6F1C5;
+    text-align: center;
+    font-size:1.5em;
+}
+
+
+p.volunteer-opportunities-page-organization-1{
+    font-size:4em;
+}
+
+h1.volunteer-opportunities-page-organization-1{
+    font-size:4em;
+}
+
+
+.volunteer-opportunities-page-organization-2{
+    
+}
+
+.volunteer-opportunities-page-organization-2-images{
+    height:15em;
+    margin:1.25em;
 }
