@@ -11,12 +11,6 @@ const move2 = document.getElementById("move2");
 const move3 = document.getElementById("move3");
 const move4 = document.getElementById("move4");
 
-
-
-let isDark = false;
-let isLarge = false;
-let isMouseDark = false;
-
 button.addEventListener("click", () => {
   popup.style.display = popup.style.display === "block" ? "none" : "block";
 });
@@ -35,90 +29,94 @@ toggleText.addEventListener("click", () => {
  
 });
 
-toggleFont.addEventListener("click", () => {
-  document.body.classList.toggle("dyslexia");
-});
-
 toggleMouse.addEventListener("click", () => {
- isLarge = true;
- if(isDark){
-  document.body.classList.toggle("Large-Mouse-Dark")
-  isMouseDark = true;
-  console.log("mouse is large and dark mode")
+    let mouse = sessionStorage.getItem("mouse");
+    let dark = sessionStorage.getItem("dark");
+    let darkMouse = sessionStorage.getItem("darkMouse");
+
+ if(dark == "1"& darkMouse == "1"){
+    document.body.classList.remove("Large-Mouse-Dark")
  }
- else if(isMouseDark && !isDark)
+ else if(dark == "1"){
+  document.body.classList.add("Large-Mouse-Dark");
+    document.body.classList.remove("Large-Mouse");
+  sessionStorage.setItem("darkMouse", "1");
+  sessionStorage.setItem("mouse", "0");
+  console.log("mouse is large and dark mode");
+ }
+ else if(darkMouse == "1" && dark == "0")
  {
-  document.body.classList.remove("Large-Mouse-Dark")
-  document.body.classList.toggle("Large-Mouse")
-  isMouseDark = false;
-  isLarge = true;
+  document.body.classList.remove("Large-Mouse-Dark");
+  document.body.classList.add("Large-Mouse");
+  sessionStorage.setItem("darkMouse", "0");
+  sessionStorage.setItem("mouse", "1");
+ }
+ else if(mouse=="0"){
+  document.body.classList.add("Large-Mouse");
+  sessionStorage.setItem("mouse", "1");
  }
  else{
-  document.body.classList.toggle("Large-Mouse")
+    document.body.classList.remove("Large-Mouse");
+    sessionStorage.setItem("mouse", "0")
  }
 
  if(document.body.classList.contains("Large-Mouse")){
-  isLarge=true
+sessionStorage.setItem("mouse", "1");
  }
  else{
-  isLarge=false
+sessionStorage.setItem("mouse", "0");
  }
 
  if(document.body.classList.contains("Large-Mouse-Dark"))
  {
-  isMouseDark = true
+  sessionStorage.setItem("darkMouse", "1");
  }
  else{
-  isMouseDark = false
+sessionStorage.setItem("darkMouse", "0");
  }
-
-
- console.log("is mouse large")
- console.log(isLarge)
- console.log("is the mouse dark")
- console.log(isMouseDark)
 });
 
 toggleDark.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-  darkText.style.color="black"
+    let mouse = sessionStorage.getItem("mouse");
+    let dark = sessionStorage.getItem("dark");
+    let darkMouse = sessionStorage.getItem("darkMouse");
 
-if(isLarge){
-document.body.classList.toggle("Large-Mouse-Dark")
+    if(dark != "1"){
+        sessionStorage.setItem("dark","1")
+          document.body.classList.add("dark-mode");
+  darkText.style.color="black"
+    }
+    else{
+        sessionStorage.setItem("dark","0")
+        document.body.classList.remove("dark-mode");
+    }
+
+
+if(mouse == "1"){
+document.body.classList.add("Large-Mouse-Dark")
 document.body.classList.remove("Large-Mouse")
+sessionStorage.setItem("mouse", "0")
+sessionStorage.setItem("darkMouse", "1")
 }
-else if(isMouseDark && isDark)
+else if(  dark == "1" && darkMouse == "1" )
  {
   document.body.classList.remove("Large-Mouse-Dark")
-  document.body.classList.toggle("Large-Mouse")
-  isMouseDark = false;
-  isLarge = true;
+  document.body.classList.add("Large-Mouse")
+  sessionStorage.setItem("darkMouse", "0")
+  sessionStorage.setItem("mouse", "1")
  }
+});
 
-
- if(document.body.classList.contains("dark-mode")){
-  isDark = true
- }
- else(
-  isDark = false
- )
-
- if(document.body.classList.contains("Large-Mouse")){
-  isLarge=true
- }
- else{
-  isLarge=false
- }
-
- if(document.body.classList.contains("Large-Mouse-Dark"))
- {
-  isMouseDark = true
- }
- else{
-  isMouseDark = false
- }
-console.log("is dark mode")
-console.log(isDark)
+toggleFont.addEventListener("click", () => {
+  let font = sessionStorage.getItem("font");
+  if(font != "1"){
+    sessionStorage.setItem("font", "1");
+    document.body.classList.add("dyslexia");
+  }
+  else{
+    sessionStorage.setItem("font", "0");
+    document.body.classList.remove("dyslexia")
+  }
 });
 
 document.body.onpointermove = event => {
@@ -171,6 +169,19 @@ window.onload = () => {
     document.getElementById("hide").style.display = "contents";
   }
   if (sessionStorage.getItem("bigText") === "1") {
-    document.body.classList.add("large-text")
+    document.body.classList.add("large-text");
+  }
+  if(sessionStorage.getItem("font") === "1"){
+    document.body.classList.add("dyslexia");
+  }
+  if(sessionStorage.getItem("dark") === "1"){
+        document.body.classList.add("dark-mode");
+  }
+  if(sessionStorage.getItem("mouse")=== "1"){
+        document.body.classList.add("Large-Mouse");
+  }
+  if(sessionStorage.getItem("darkMouse") === "1")
+  {
+        document.body.classList.add("Large-Mouse-Dark");
   }
 };
