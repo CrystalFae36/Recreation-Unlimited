@@ -34,7 +34,7 @@ toggleMouse.addEventListener("click", () => {
     let dark = sessionStorage.getItem("dark");
     let darkMouse = sessionStorage.getItem("darkMouse");
 
- if(dark == "1"& darkMouse == "1"){
+ if(dark == "1" & darkMouse == "1"){
     document.body.classList.remove("Large-Mouse-Dark")
  }
  else if(dark == "1"){
