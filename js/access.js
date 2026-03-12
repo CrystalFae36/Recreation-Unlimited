@@ -51,7 +51,7 @@ toggleMouse.addEventListener("click", () => {
   sessionStorage.setItem("darkMouse", "0");
   sessionStorage.setItem("mouse", "1");
  }
- else if(mouse=="0"){
+ else if(mouse!="1"){
   document.body.classList.add("Large-Mouse");
   sessionStorage.setItem("mouse", "1");
  }
@@ -184,4 +184,4 @@ window.onload = () => {
   {
         document.body.classList.add("Large-Mouse-Dark");
   }
-};
+}; 
