@@ -800,9 +800,34 @@ footer a {
 }
 /*Camps Styling */
 
-.camps_main_sec{
-    background-color: #123107;
-    
+.camps-txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: right;
+    height: 13em;
+}
+.camps-txt-container h1 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    font-size: 60pt;
+    color: #FFFBDB;
+    text-align: center;
+}
+
+.camps-txt-container button {
+    position: relative;
+    top:2em;
+    left:9em;
+    height: 2em;
+    align-self: center;
+    width: 5.5em;
+    color: #534900;
+    border-radius: 1em;
+    border-style: none;
+    background-color: #FFBE0D;
+    font-family: 'Milky', Helvetica, sans-serif;
+    font-size: 25pt;
+    cursor: pointer;
 }
 
 /*Message from our Director */
@@ -2228,4 +2253,289 @@ h1.volunteer-opportunities-page-organization-1{
     width:70em;
     justify-content:space-around;
     align-items:center;
+}
+
+/*Nurse Quarters Styling*/
+.nurse-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:75em;
+}
+.nurse-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:70em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.nurse-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.nurse-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    height:62em;
+}
+.nurse-top-container{
+    display:flex;
+    justify-content:space-around;
+    width:80em;
+    align-items:center;
+}
+.nurse-top-txt-container{
+    width:30em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+}
+.nurse-text-container{
+    display:flex;
+    width:70em;
+    justify-content:space-around;
+    align-items:center;
+    height:10em;
+}
+.nurse-midleft-txt-container h3{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    font-weight:1;
+}
+.nurse-midleft-txt-container ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+.nurse-midright-txt-container h3{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    font-weight:1;
+}
+.nurse-midright-txt-container ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+.nurse-left-container{
+    display:flex;
+    justify-content:space-around;
+    width:70em;
+    align-items:center;
+}
+.nurse-right-container{
+    display:flex;
+    justify-content:space-around;
+    width:70em;
+    align-items:center;
+}
+.nurse-right-txt-container h3{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    font-weight:1;
+}
+.nurse-right-txt-container ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+
+.nurse-left-txt-container h3{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    font-weight:1;
+}
+.nurse-left-txt-container ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+
+
+/*
+.nurse-text-left{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    width:30em;
+    font-size:16pt;
+}
+.cc-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:30em;
+}
+.cc-container h3{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:20pt;
+    font-weight:1;
+    margin-top:.5em;
+}
+.cc-feature-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.cc-list{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+.cc-top-container{
+    display:flex;
+    justify-content:space-around;
+    width:100em;
+    align-items:center;
+}
+.cc-bottom-container{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+*/
+
+
+
+
+
+
+/*Programs Styling*/
+.program-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50em;
+}
+.program-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:40em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.program-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.program-list-container{
+    height:30em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100em
+}
+.program-list-base{
+    list-style:none;
+}
+.program-list-container ul{
+    display:flex;
+    flex-direction:column;
+    height:30em;
+    width:40em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.program-list-item a{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+}
+
+
+
+
+/* Ologyst */
+
+.Ologyst-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80em;
+}
+.Ologyst-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:60em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.Ologyst-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+
+.Ologyst-list-container{
+    display:flex;
+    align-items:center;
+    width:100em;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.Ologyst-list-container ul{
+    width:40em;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+
+.Ologyst-list-container-up{
+     color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:12pt;
+    font-weight:1;
+    margin-top:.5em;
+    display:flex;
+    flex-direction:row;
+}
+
+.Ologyst-list-container-down{
+     color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:12pt;
+    font-weight:1;
+    margin-top:.5em;
 }

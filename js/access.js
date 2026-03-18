@@ -1,10 +1,10 @@
 const button = document.getElementById("accessibility-btn");
 const popup = document.getElementById("accessibility-popup");
-const toggleDark = document.getElementById("toggle-dark");
+const toggleContrast = document.getElementById("toggle-contrast");
 const toggleText = document.getElementById("toggle-text");
 const toggleFont = document.getElementById("toggle-font");
 const toggleMouse = document.getElementById("toggle-mouse")
-const darkText = document.getElementById("accessibility-popup")
+const contText = document.getElementById("accessibility-popup")
 const readingMask = document.getElementById("reading-mask")
 const move = document.getElementById("move");
 const move2 = document.getElementById("move2");
@@ -31,24 +31,23 @@ toggleText.addEventListener("click", () => {
 
 toggleMouse.addEventListener("click", () => {
     let mouse = sessionStorage.getItem("mouse");
-    let dark = sessionStorage.getItem("dark");
-    let darkMouse = sessionStorage.getItem("darkMouse");
+    let cont = sessionStorage.getItem("cont");
+    let contMouse = sessionStorage.getItem("contMouse");
 
- if(dark == "1" & darkMouse == "1"){
-    document.body.classList.remove("Large-Mouse-Dark")
+ if(cont == "1" & contMouse == "1"){
+    document.body.classList.remove("Large-Mouse-Cont")
  }
- else if(dark == "1"){
-  document.body.classList.add("Large-Mouse-Dark");
+ else if(cont == "1"){
+  document.body.classList.add("Large-Mouse-Cont");
     document.body.classList.remove("Large-Mouse");
-  sessionStorage.setItem("darkMouse", "1");
+  sessionStorage.setItem("contMouse", "1");
   sessionStorage.setItem("mouse", "0");
-  console.log("mouse is large and dark mode");
  }
- else if(darkMouse == "1" && dark == "0")
+ else if(contMouse == "1" && cont == "0")
  {
-  document.body.classList.remove("Large-Mouse-Dark");
+  document.body.classList.remove("Large-Mouse-Cont");
   document.body.classList.add("Large-Mouse");
-  sessionStorage.setItem("darkMouse", "0");
+  sessionStorage.setItem("contMouse", "0");
   sessionStorage.setItem("mouse", "1");
  }
  else if(mouse!="1"){
@@ -67,21 +66,21 @@ sessionStorage.setItem("mouse", "1");
 sessionStorage.setItem("mouse", "0");
  }
 
- if(document.body.classList.contains("Large-Mouse-Dark"))
+ if(document.body.classList.contains("Large-Mouse-Cont"))
  {
-  sessionStorage.setItem("darkMouse", "1");
+  sessionStorage.setItem("contMouse", "1");
  }
  else{
-sessionStorage.setItem("darkMouse", "0");
+sessionStorage.setItem("contMouse", "0");
  }
 });
 
-toggleDark.addEventListener("click", () => {
+toggleContrast.addEventListener("click", () => {
     let mouse = sessionStorage.getItem("mouse");
-    let dark = sessionStorage.getItem("dark");
-    let darkMouse = sessionStorage.getItem("darkMouse");
+    let cont = sessionStorage.getItem("cont");
+    let contMouse = sessionStorage.getItem("contMouse");
 
-    if(dark != "1"){
+    if(cont != "1"){
         sessionStorage.setItem("dark","1")
           document.body.classList.add("dark-mode");
   darkText.style.color="black"

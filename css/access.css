@@ -77,9 +77,7 @@ body {
 
 /* --- dark Mode --- */
 .dark-mode {
-  --bg-color: #000000;
-  --text-color: #ffffff;
-  --accent-color: #ff8f0e;
+
 }
 
 /* --- Large Text --- */
@@ -140,8 +138,8 @@ body {
   cursor: url("../images/50px\ light.png"), auto !important;
 }
 
-.Large-Mouse-Dark,
-.Large-Mouse-Dark *{
+.Large-Mouse-Cont,
+.Large-Mouse-Cont *{
   cursor: url("../images/50px\ dark.png"), auto !important;
 }
 
