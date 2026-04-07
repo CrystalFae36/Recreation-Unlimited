@@ -829,7 +829,41 @@ footer a {
     font-size: 25pt;
     cursor: pointer;
 }
+.camps-summer-container {
+    background-image: url(../images/ru-sunrise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+}
 
+.camps-summer-container-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.camps-summer-bg {
+    background-color: #0E4729;
+    height: 50em;
+    width: 50em;
+    display: flex;
+    position: relative;
+    left:70em;
+    justify-content: center;
+    align-items: center;
+}
+.camps-special {
+    display: flex;
+    height: 50vw;
+    width: 100%;
+    background-color: #ADDAE3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.camps-special img{
+    width: 20vw;
+}
 /*Message from our Director */
 .message-container {
     display: flex;
@@ -2538,4 +2572,97 @@ h1.volunteer-opportunities-page-organization-1{
     font-size:12pt;
     font-weight:1;
     margin-top:.5em;
+}
+
+/* sizing */
+
+@media only screen and (max-width: 700px) {
+.footerse1 {
+
+    position: relative;
+    right: 3vw;
+    display: inline-block;
+    width: 45vw;
+    background-color: #0C2404;
+    padding: 5vw;
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+
+.footerse2 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    position: relative;
+    top: 2vw;
+    display: inline-block;
+    width: 45vw;
+    background-color: #0C2404;
+    padding: 5vw;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+.footer-accord-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-accord-group{
+    margin:50px;
+}
+
+.footer-container{
+    background-color:#153A08;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    justify-content:space-around;
+    align-items:center;
+    max-width:1554px;
+}
+
+.footer-container hr{
+    margin-top:15px;
+}
+
+.footer-container p{
+    color:#F6F1C5;
+    margin:15px 50px;
+}
+
+.news-accord{
+    background-color:#1D4A0D;
+    color:#F6F1C5;
+    cursor:pointer;
+    width:1554px;
+    font-family:'Milky', Helvetica, sans-serif;
+    font-size:50pt;
+    border:none;
+    transition:0.4s
+}
+
+.active, .accordian:hover{
+    background-color:#153A08;
+}
+
+.news-container{
+    display:flex;
+    background-color:#153A08;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.4s ease-in;
+    transition:max-height 0.2s ease-out;
+}
 }
