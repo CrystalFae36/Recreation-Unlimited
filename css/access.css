@@ -76,8 +76,45 @@ body {
 
 
 /* --- dark Mode --- */
-.dark-mode {
+.dark-mode .homepg-happen-container{
+  background: #202020;
+}
+.dark-mode .homepg-news-container{
+  background: #202020;
+}
+.dark-mode .happen-btn{
+  background: #202020;
+}
+.dark-mode .navbar{
+  background: #202020;
+}
+.dark-mode .slogan{
+  background: #202020;
+}
+.dark-mode .top-text{
+  background: #202020;
+}
+.dark-mode .homepage-mission{
+  background: #202020;
+}
+.dark-mode .homepage-mission-background{
+  background: #202020;
+  color:white;
+}
 
+.dark-mode .donate-button{
+  background: cyan;
+  color: white;
+}
+
+.dark-mode .happen-label{
+  color: white;
+}
+.dark-mode .GNF{
+  color: white;
+}
+.dark-mode .tom{
+  color: white;
 }
 
 /* --- Large Text --- */

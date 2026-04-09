@@ -81,12 +81,11 @@ toggleContrast.addEventListener("click", () => {
     let contMouse = sessionStorage.getItem("contMouse");
 
     if(cont != "1"){
-        sessionStorage.setItem("dark","1")
+        sessionStorage.setItem("cont","1")
           document.body.classList.add("dark-mode");
-  darkText.style.color="black"
     }
     else{
-        sessionStorage.setItem("dark","0")
+        sessionStorage.setItem("cont","0")
         document.body.classList.remove("dark-mode");
     }
 
@@ -97,7 +96,7 @@ document.body.classList.remove("Large-Mouse")
 sessionStorage.setItem("mouse", "0")
 sessionStorage.setItem("darkMouse", "1")
 }
-else if(  dark == "1" && darkMouse == "1" )
+else if(  cont == "1" && contMouse == "1" )
  {
   document.body.classList.remove("Large-Mouse-Dark")
   document.body.classList.add("Large-Mouse")
