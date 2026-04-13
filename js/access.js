@@ -172,7 +172,7 @@ window.onload = () => {
   if(sessionStorage.getItem("font") === "1"){
     document.body.classList.add("dyslexia");
   }
-  if(sessionStorage.getItem("dark") === "1"){
+  if(sessionStorage.getItem("cont") === "1"){
         document.body.classList.add("dark-mode");
   }
   if(sessionStorage.getItem("mouse")=== "1"){
