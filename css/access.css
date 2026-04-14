@@ -97,6 +97,28 @@ body {
 .dark-mode .homepage-mission{
   background: #202020;
 }
+.dark-mode .camper-reviews{
+  background: #202020;
+}
+.dark-mode .camper-reviews-background{
+  background: #202020;
+}
+.dark-mode .camper-review-columes{
+  background: #202020;
+}
+.dark-mode .footer{
+  background: #202020;
+}
+.dark-mode .footerse1{
+  background: #202020;
+}
+.dark-mode .footerse2{
+  background: #202020;
+}
+.dark-mode .socials{
+  background: #202020;
+}
+
 .dark-mode .homepage-mission-background{
   background: #202020;
   color:white;
@@ -115,6 +137,18 @@ body {
 }
 .dark-mode .tom{
   color: white;
+}
+.dark-mode .camper-reviews-title{
+  color: white;
+}
+.dark-mode .review-name{
+  color: white;
+}
+.dark-mode .review-text{
+  color: white;
+}
+.dark-mode .bigctegory a{
+  color: cyan;
 }
 
 /* --- Large Text --- */
