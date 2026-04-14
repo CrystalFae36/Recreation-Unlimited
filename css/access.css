@@ -101,15 +101,6 @@ body {
   background: #202020;
   color:white;
 }
-.dark-mode .camper-reviews{
-  background: #202020;
-}
-.dark-mode .camper-reviews-background{
-  background: #202020;
-}
-.dark-mode .camper-review-columes{
-  background: #202020;
-}
 
 .dark-mode .donate-button{
   background: cyan;
@@ -123,15 +114,6 @@ body {
   color: white;
 }
 .dark-mode .tom{
-  color: white;
-}
-.dark-mode .review-name{
-  color: white;
-}
-.dark-mode .review-text{
-  color: white;
-}
-.dark-mode .camper-reviews-title{
   color: white;
 }
 
