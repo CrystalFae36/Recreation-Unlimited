@@ -76,15 +76,7 @@ body {
 
 
 /* --- dark Mode --- */
-.dark-mode .homepg-happen-container{
-  background: #202020;
-}
-.dark-mode .homepg-news-container{
-  background: #202020;
-}
-.dark-mode .happen-btn{
-  background: #202020;
-}
+/* --- navbar --- */
 .dark-mode .navbar{
   background: #202020;
 }
@@ -92,6 +84,41 @@ body {
   background: #202020;
 }
 .dark-mode .top-text{
+  background: #202020;
+}
+
+.dark-mode .donate-button{
+  background: cyan;
+  color: white;
+}
+/* --- footer --- */
+.dark-mode .footer{
+  background: #202020;
+}
+.dark-mode footer{
+  background: #202020;
+}
+.dark-mode .footerse1{
+  background: #202020;
+}
+.dark-mode .footerse2{
+  background: #202020;
+}
+.dark-mode .socials{
+  background: #202020;
+}
+
+.dark-mode .bigcategory a{
+  color: cyan;
+}
+/* --- home page --- */
+.dark-mode .homepg-happen-container{
+  background: #202020;
+}
+.dark-mode .homepg-news-container{
+  background: #202020;
+}
+.dark-mode .happen-btn{
   background: #202020;
 }
 .dark-mode .homepage-mission{
@@ -106,27 +133,10 @@ body {
 .dark-mode .camper-review-columes{
   background: #202020;
 }
-.dark-mode .footer{
-  background: #202020;
-}
-.dark-mode .footerse1{
-  background: #202020;
-}
-.dark-mode .footerse2{
-  background: #202020;
-}
-.dark-mode .socials{
-  background: #202020;
-}
 
 .dark-mode .homepage-mission-background{
   background: #202020;
   color:white;
-}
-
-.dark-mode .donate-button{
-  background: cyan;
-  color: white;
 }
 
 .dark-mode .happen-label{
@@ -147,8 +157,54 @@ body {
 .dark-mode .review-text{
   color: white;
 }
-.dark-mode .bigctegory a{
-  color: cyan;
+/* --- midnav --- */
+
+.dark-mode .midnav{
+  background: #202020;
+}
+.dark-mode .vert-line{
+  background: #202020;
+}
+
+.dark-mode .midnav a{
+  color: white;
+}
+/* --- about --- */
+.dark-mode .about-history-bg{
+  background: #202020;
+}
+.dark-mode .about-mtt-container{
+  background: #202020;
+}
+.dark-mode .about-mtt-inner-container-picture{
+  background: #202020;
+}
+.dark-mode .about-mfod{
+  background: #202020;
+}
+.dark-mode .about-mfod-image-container{
+  background: #202020;
+}
+
+
+
+.dark-mode .about-history-bg h1{
+  color: white;
+}
+.dark-mode .about-mfod-text-container h2{
+  color: white;
+}
+.dark-mode .about-mfod-text-container p{
+  color: white;
+}
+
+.dark-mode .about-mfod-button{
+  color: #202020;
+  background: white;
+}
+.dark-mode .about-mtt-button{
+  color: #202020;
+  background: white;
 }
 
 /* --- Large Text --- */

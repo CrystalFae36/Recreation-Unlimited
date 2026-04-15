@@ -2675,12 +2675,217 @@ h1.volunteer-opportunities-page-organization-1{
     font-size:18pt;
 }
 
+/*Amphitheater Styling*/
+.amp-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:73em;
+}
+.amp-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:68em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.amp-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.amp-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height:60em;
+}
+.amp-top-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90em;
+}
+.amp-top-text{
+    width:40em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+}
+.amp-mid-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:90em;
+}
+.amp-mid-text{
+    width:20em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+}
+.amp-mid-text ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+.amp-bottom-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:50em;
+}
+
+/*Guest Cottage Styling*/
+.gc-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:53em;
+}
+.gc-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:48em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.gc-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.gc-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height:40em;
+}
+.gc-top-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90em;
+}
+.gc-top-text{
+    width:40em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+}
+.gc-bottom-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90em;
+}
+.gc-bottom-text{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+    width:25em;
+}
+.gc-bottom-text ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+
+/*Lake Shelter Styling*/
+.ls-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:73em;
+}
+.ls-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:68em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.ls-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.ls-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height:60em;
+}
+.ls-top-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90em;
+}
+.ls-top-text{
+    width:40em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+}
+.ls-mid-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:90em;
+}
+.ls-mid-text{
+    width:20em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+}
+.ls-mid-text ul>li{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:1;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-top:.5em;
+}
+.ls-bottom-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:50em;
+}
+.ls-lake-view-img{
+    width:40%;
+    height:auto;
+}
+
 
 
 /*
-
-
-
 .nurse-text-left{
     color:#FFFBDB;
     font-family: Helvetica, sans-serif;
@@ -2979,8 +3184,34 @@ h1.volunteer-opportunities-page-organization-1{
     justify-content:space-evenly;
     align-items:center;
 }
-.program-list-item a{
+
+.program-list-container p{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:11pt;
+    font-weight:1;
+    margin-top:.5em;
+    margin-right:.5em;
+    margin-left:.5em;
+}
+
+
+.program-list-item p{
     color:#FFFBDB;
     font-family: Helvetica, sans-serif;
     font-size:18pt;
+}
+
+
+
+
+
+.map-main{
+    display: flex;
+    height: 100em;
+    width: 100%;
+    background-color: #3C7A27;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
