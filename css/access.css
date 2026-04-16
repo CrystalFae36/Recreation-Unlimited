@@ -185,8 +185,31 @@ body {
 .dark-mode .about-mfod-image-container{
   background: #202020;
 }
-
-
+.dark-mode .about-events{
+  background: #202020;
+}
+.dark-mode .about-events-organization-light-green{
+  background: #202020;
+}
+.dark-mode .about-events-organization-dark-green{
+  background: #202020;
+}
+.dark-mode .about-contact-us-background{
+  background: #202020;
+}
+.dark-mode .about-contact-us-contact-us-text{
+background: #202020;
+  color: white;
+}
+.dark-mode .about-contact-us-contact-email{
+  color: white;
+}
+.dark-mode .about-contact-us-contact-fax{
+  color: white;
+}
+.dark-mode .about-contact-us-contact-phone{
+  color: white;
+}
 
 .dark-mode .about-history-bg h1{
   color: white;
