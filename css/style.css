@@ -3116,14 +3116,20 @@ h1.volunteer-opportunities-page-organization-1{
 }
 
 /* sizing */
+.footer-accordion{
+    display: none;
+}
+.footer-panel{
+    display: none;
+} 
 
 @media only screen and (max-width: 700px) {
 .footerse1 {
-
+    height:40vw;
     position: relative;
-    right: 3vw;
+    left: 4vw;
     display: inline-block;
-    width: 45vw;
+    width: 80vw;
     background-color: #0C2404;
     padding: 5vw;
     text-align: center;
@@ -3139,9 +3145,11 @@ h1.volunteer-opportunities-page-organization-1{
 .footerse2 {
     font-family: 'Milky', Helvetica, sans-serif;
     position: relative;
+    left: 4vw;
     top: 2vw;
     display: inline-block;
-    width: 45vw;
+    width: 80vw;
+    height:60vw;
     background-color: #0C2404;
     padding: 5vw;
     text-align: center;
@@ -3186,14 +3194,96 @@ h1.volunteer-opportunities-page-organization-1{
 /* Style the accordion panel. Note: hidden by default */
 .footer-panel {
   padding: 0 18px;
-  background-color: rgb(233, 0, 0);
+  background-color: rgb(4, 168, 32);
   display: none;
   overflow: hidden;
 }
 .footer-panel a{
     font-size: 3vw;
 }
+.footer h4 {
+    font-family: 'Milky', Helvetica, sans-serif;
+    font-size: 8vw;
+    margin-bottom: 4.3vw;
+}
+.footer {
+    border-spacing: 2vw;
+    padding-left: 4vw;
+    padding-right: 2vw;
+}
 
+.socials {
+    display: inline-block;
+    background-color: #081702;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+    margin: .2vw;
+    padding-bottom: 0vw;
+    color: black;
+}
+
+.socials img {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 14.5vw;
+    height: 14.5vw;
+    border-radius: 2vw;
+    -webkit-border-radius: 2vw;
+    -moz-border-radius: 2vw;
+    -ms-border-radius: 2vw;
+    -o-border-radius: 2vw;
+    margin: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+form {
+
+    padding-top: 2vw;
+    font-size: 5vw;
+}
+
+input {
+    font-family: 'Milky', Helvetica, sans-serif;
+    background-color: #FFBE0D;
+    color: #534900;
+    font-size: 5.4vw;
+    padding: .5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    border-radius: .9vw;
+    -webkit-border-radius: .9vw;
+    -moz-border-radius: .9vw;
+    -ms-border-radius: .9vw;
+    -o-border-radius: .9vw;
+}
+
+.email {
+    background-color: white;
+    color: grey;
+    font-size: 2vw;
+    margin:3vw;
+    padding: .8vw;
+    padding-right: 6vw;
+    border-radius: .9vw;
+    -webkit-border-radius: .9vw;
+    -moz-border-radius: .9vw;
+    -ms-border-radius: .9vw;
+    -o-border-radius: .9vw;
+}
+
+footer a {
+
+    display: inline-block;
+    color: #FFFBDB;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-top: .4vw;
+    margin-bottom: 1vw;
+}
 }
 
 
