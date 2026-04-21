@@ -2137,6 +2137,66 @@ h1.volunteer-opportunities-page-organization-1{
 }
 
 /*Retreat House Styling*/
+.grh-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:70em;
+}
+.grh-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:65em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.grh-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.grh-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:58em;
+}
+.grh-top-container{
+    display:flex;
+    justify-content:space-around;
+    width:90em;
+    align-items:center;
+}
+.grh-top-text{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    width:35em;
+    font-size:16pt;
+}
+.grh-gallery{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width:90em;
+    align-items:center;
+    height:30em;
+}
+.grh-top-gal{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:50em;
+}
+.grh-mid-gal{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:65em;
+}
 
 /*Creative Center Styling*/
 .cc-bg-container{
@@ -2953,33 +3013,61 @@ h1.volunteer-opportunities-page-organization-1{
     width:50em;
 }
 
-
-/*
-.nurse-text-left{
-    color:#FFFBDB;
-    font-family: Helvetica, sans-serif;
-    width:30em;
-    font-size:16pt;
+/*Lodge Styling*/
+.lodge-bg-container{
+    background-color:#2B6119;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:73em;
 }
-.cc-container{
+.lodge-bg{
+    background-color:#224B13;
+    display:flex;
+    flex-direction:column;
+    height:68em;
+    width:100em;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.lodge-bg h2{
+    color:#FFFBDB;
+    font-family: 'Milky', Arial, Helvetica, sans-serif;
+    font-size:40pt;
+    font-weight:1;
+}
+.lodge-container{
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    height:30em;
+    align-items:center;
+    height:60em;
 }
-.cc-container h3{
+.lodge-top-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:80em;
+}
+.lodge-top-text{
+    width:35em;
     color:#FFFBDB;
     font-family: Helvetica, sans-serif;
-    font-size:20pt;
-    font-weight:1;
-    margin-top:.5em;
+    font-size:16pt;
 }
-.cc-feature-container{
+.lodge-mid-container{
     display:flex;
-    flex-direction:column;
+    justify-content:space-evenly;
     align-items:center;
+    width:90em;
 }
-.cc-list{
+.lodge-mid-text{
+    width:20em;
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
+}
+.lodge-mid-text ul>li{
     color:#FFFBDB;
     font-family: Helvetica, sans-serif;
     font-size:16pt;
@@ -2988,23 +3076,17 @@ h1.volunteer-opportunities-page-organization-1{
     list-style-position:inside;
     padding-top:.5em;
 }
-.cc-top-container{
+.lodge-bottom-container{
     display:flex;
     justify-content:space-around;
-    width:100em;
     align-items:center;
+    width:70em;
 }
-.cc-bottom-container{
-    display:flex;
-    justify-content:space-evenly;
-    
+.lodge-bottom-text{
+    color:#FFFBDB;
+    font-family: Helvetica, sans-serif;
+    font-size:18pt;
 }
-*/
-
-
-
-
-
 
 /*Programs Styling*/
 .program-bg-container{
@@ -3058,14 +3140,14 @@ h1.volunteer-opportunities-page-organization-1{
 
 /* Ologyst */
 
-.Ologyst-bg-container{
+.olo-bg-container{
     background-color:#2B6119;
     display:flex;
     justify-content:center;
     align-items:center;
     height:80em;
 }
-.Ologyst-bg{
+.olo-bg{
     background-color:#224B13;
     display:flex;
     flex-direction:column;
@@ -3075,38 +3157,32 @@ h1.volunteer-opportunities-page-organization-1{
     align-items:center;
 }
 
-.Ologyst-bg h2{
+.olo-bg h2{
     color:#FFFBDB;
     font-family: 'Milky', Arial, Helvetica, sans-serif;
     font-size:40pt;
     font-weight:1;
 }
 
-.Ologyst-list-container{
+.olo-container{
     display:flex;
     align-items:center;
     width:100em;
     flex-direction:column;
     justify-content:space-evenly;
 }
-
-.Ologyst-list-container ul{
-    width:40em;
+.olo-top-container{
+    display:flex;
     justify-content:space-evenly;
     align-items:center;
-    
+    width:80em;
 }
-
-.Ologyst-list-container-up{
-     color:#FFFBDB;
+.olo-top-text{
+    width:35em;
+    color:#FFFBDB;
     font-family: Helvetica, sans-serif;
-    font-size:12pt;
-    font-weight:1;
-    margin-top:.5em;
-    display:flex;
-    flex-direction:row;
+    font-size:16pt;
 }
-
 .Ologyst-list-container-down{
      color:#FFFBDB;
     font-family: Helvetica, sans-serif;
@@ -3124,8 +3200,15 @@ h1.volunteer-opportunities-page-organization-1{
 } 
 
 @media only screen and (max-width: 700px) {
+
+    footer p {
+    font-family: 'Milky', Helvetica, sans-serif;
+    color: #FFFBDB;
+    font-size: 4vw;
+
+}
 .footerse1 {
-    height:40vw;
+    height:60vw;
     position: relative;
     left: 4vw;
     display: inline-block;
@@ -3172,34 +3255,35 @@ h1.volunteer-opportunities-page-organization-1{
 /* Style the buttons that are used to open and close the accordion panel */
 .footer-accordion {
   display: block;
-  background-color: #0E4729;
-  color: black;
+  background-color: #19400B;
+  color: #FFFBDB;
   cursor: pointer;
   padding: 28px;
   width: 80vw;
-  font-size: 4vw;
+  font-size: 10vw;
   text-align: center;
   border: none;
   outline:solid;
   outline-width: .1vw;
-  outline-color: #0E4729;
+  outline-color: #19400B;
   transition: 0.4s;
+  font-family:'Milky', Helvetica, sans-serif;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .footer-accordion:hover {
-  background-color: #ccc;
+  background-color: #1a8005;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .footer-panel {
-  padding: 0 18px;
-  background-color: rgb(4, 168, 32);
+    padding: 0 18px;
+  background-color: rgb(2, 49, 9);
   display: none;
   overflow: hidden;
 }
 .footer-panel a{
-    font-size: 3vw;
+    font-size: 6vw;
 }
 .footer h4 {
     font-family: 'Milky', Helvetica, sans-serif;
@@ -3264,7 +3348,7 @@ input {
 .email {
     background-color: white;
     color: grey;
-    font-size: 2vw;
+    font-size: 4vw;
     margin:3vw;
     padding: .8vw;
     padding-right: 6vw;

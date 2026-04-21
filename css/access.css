@@ -230,22 +230,296 @@ background: #202020;
   background: white;
 }
 
+/* --- History and Today --- */
+
+.dark-mode .top-display top-bg-tint{
+  background: #202020;
+}
+
+.dark-mode .top-text{
+  background: #202020;
+}
+
+.dark-mode .midnav{
+  background: #202020;
+}
+
+.dark-mode .vert-line{
+  background: #202020;
+}
+
+.dark-mode .hat-top{
+  background: #202020;
+}
+
+.dark-mode .hat-img{
+  background: #202020;
+}
+
+.dark-mode .hat-start{
+  background: #202020;
+}
+
+.dark-mode .dream{
+  background: #202020;
+}
+
+.dark-mode .hat-fade{
+  background: #202020;
+}
+
+.dark-mode .hat-end{
+  background: #202020;
+}
+
+.dark-mode .hat-today{
+  background: #202020;
+}
+
+.dark-mode .history{
+  background: #202020;
+}
+
+.dark-mode .hat-img-container{
+  background: #202020;
+}
+
+.dark-mode .hat-img-middle{
+  background: #202020;
+}
+
+.dark-mode .hat-img-bottom{
+  background: #202020;
+}
+
+/* --- adventurer --- */
+
+.dark-mode .top-display top-bg-tint{
+  background: #202020;
+}
+
+.dark-mode .top-text{
+  background: #202020;
+}
+
+.dark-mode .vert-line{
+  background: #202020;
+}
+
+.dark-mode .program-bg-container{
+  background: #202020;
+}
+
+.dark-mode .program-bg{
+  background: #202020;
+}
+
+.dark-mode .program-list-container{
+  background: #202020;
+}
+
+/* --- Camp Info --- */
+
+.dark-mode .camps-section{
+  background: #202020;
+}
+
+.dark-mode .camps_bigcontain{
+  background: #202020;
+}
+
+.dark-mode .camps_smallcontain{
+  background: #202020;
+}
+
+.dark-mode .camps_smallcontain{
+  background: #202020;
+}
+
+.dark-mode .camps_smallcontain{
+  background: #202020;
+}
+
+.dark-mode .see-our-camps{
+  background: #202020;
+}
+
+.dark-mode .whats-going-on{
+  background: #202020;
+}
+
+.dark-mode .wgo_smallcontain{
+  background: #202020;
+} 
+
+.dark-mode .wgo_bigcontain{
+  background: #202020;
+}
+
+/* --- Support Us --- */
+
+.dark-mode .support_us{
+  background: #202020;
+}
+
+.dark-mode .sus_donate{
+  background: #202020;
+}
+
+.dark-mode .sus_donate_sun{
+  background: #202020;
+}
+
+.dark-mode .sus_donate_tree{
+  background: #202020;
+}
+
+.dark-mode .sus_donate_clowd{
+  background: #202020;
+}
+
+.dark-mode .sus_donate_text{
+  background: #202020;
+}
+
+.dark-mode .sus_seasonal{
+  background: #202020;
+}
+
+.dark-mode .sus_seasonal_clouds{
+  background: #202020;
+}
+
+.dark-mode .sus_seasonal_button{
+  background: #202020;
+}
+
+.dark-mode .sus_seasonal_text{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer_clouds{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer_snowr{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer_snowb{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer_button{
+  background: #202020;
+}
+
+.dark-mode .sus_volenteer_text{
+  background: #202020;
+}
+
+/* --- Leasing --- */
+
+.dark-mode .lease-blurb-bg{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-container{
+  background: #202020;
+}
+
+.dark-mode .lease-head-container{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-top-container{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-text{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-img-top{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-img-bottom{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-text{
+  background: #202020;
+}
+
+.dark-mode .lease-blurb-subtext-container{
+  background: #202020;
+}
+
+.dark-mode .lease-explore-bg-container lease-bg-tint{
+  background: #202020;
+}
+
+.dark-mode .lease-explore-container{
+  background: #202020;
+}
+
+.dark-mode .lease-button{
+  background: #202020;
+}
+
+.dark-mode .lease-program-bg-container lease-bg-tint{
+  background: #202020;
+}
+
+.dark-mode .lease-program-container{
+  background: #202020;
+}
+.dark-mode .lease-program-head-container{
+  background: #202020;
+}
+
+.dark-mode .lease-button{
+  background: #202020;
+}
+
+.dark-mode .lease-addition-container{
+  background: #202020;
+}
+
+.dark-mode .lease-addition-bg-container{
+  background: #202020;
+}
+
+.dark-mode .lease-addition-button{
+  background: #202020;
+}
+
+
 /* --- Large Text --- */
 .large-text .top-text{
-  font-size: 12em !important;
+  font-size: 12em;
 }
 .large-text .slogan{
   font-size: 4em;
 }
-.large-text a{
+.large-text .navbar a{
   font-size: 1.5em;
-}
-.large-text h1{
-  font-size: 3em;
 }
 .large-text .dream{
   font-size: 5em;
 }
+.large-text .dyslexia .home-page-mission-background-text{
+  font-size: 1em !important;
+ }
  .large-text .home-page-mission-background-text{
   font-size: 2.5em;
  }
