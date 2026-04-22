@@ -88,8 +88,8 @@ body {
 }
 
 .dark-mode .donate-button{
-  background: cyan;
-  color: white;
+  color: #202020;
+  background: white;
 }
 /* --- footer --- */
 .dark-mode .footer{
@@ -111,6 +111,14 @@ body {
 .dark-mode .bigcategory a{
   color: cyan;
 }
+.dark-mode .footer-accordion{
+  color: cyan;
+  background: #202020;
+  outline-color: #202020;
+}
+.dark-mode .footer-panel{
+  background-color: #202020;
+}
 /* --- home page --- */
 .dark-mode .homepg-happen-container{
   background: #202020;
@@ -119,7 +127,8 @@ body {
   background: #202020;
 }
 .dark-mode .happen-btn{
-  background: #202020;
+  background: cyan;
+  color: white;
 }
 .dark-mode .homepage-mission{
   background: #202020;
@@ -238,6 +247,7 @@ background: #202020;
 
 .dark-mode .top-text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .midnav{
@@ -289,7 +299,8 @@ background: #202020;
 }
 
 .dark-mode .hat-img-bottom{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 /* --- adventurer --- */
@@ -300,6 +311,7 @@ background: #202020;
 
 .dark-mode .top-text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .vert-line{
@@ -380,6 +392,7 @@ background: #202020;
 
 .dark-mode .sus_donate_text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .sus_seasonal{
@@ -391,11 +404,13 @@ background: #202020;
 }
 
 .dark-mode .sus_seasonal_button{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .sus_seasonal_text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .sus_volenteer{
@@ -415,11 +430,13 @@ background: #202020;
 }
 
 .dark-mode .sus_volenteer_button{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .sus_volenteer_text{
   background: #202020;
+  color:white;
 }
 
 /* --- Leasing --- */
@@ -442,6 +459,7 @@ background: #202020;
 
 .dark-mode .lease-blurb-text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .lease-blurb-img-top{
@@ -453,11 +471,13 @@ background: #202020;
 }
 
 .dark-mode .lease-blurb-img-bottom{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .lease-blurb-text{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .lease-blurb-subtext-container{
@@ -473,7 +493,8 @@ background: #202020;
 }
 
 .dark-mode .lease-button{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .lease-program-bg-container lease-bg-tint{
@@ -488,7 +509,8 @@ background: #202020;
 }
 
 .dark-mode .lease-button{
-  background: #202020;
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .lease-addition-container{
@@ -500,9 +522,1074 @@ background: #202020;
 }
 
 .dark-mode .lease-addition-button{
+  color: #202020;
+  background: white;
+}
+
+/* --- Meet The Team --- */
+
+.dark-mode .meet-the-team{
   background: #202020;
 }
 
+.dark-mode .meet-the-team-columns{
+  background: #202020;
+}
+
+.dark-mode .meet-the-team-column-picture{
+  background: #202020;
+}
+
+.dark-mode .meet-the-team-column-text-box{
+  background: #202020;
+}
+
+.dark-mode .meet-the-team-column-text-firstname-lastname{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .meet-the-team-column-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .meet-the-team-column-text{
+  background: #202020;
+  color:white;
+}
+
+/* --- A Message From Our Director  --- */
+
+.dark-mode .background-message-from-our-director{
+  background: #202020;
+}
+
+.dark-mode .message-container{
+  background: #202020;
+}
+
+.dark-mode .message-from-our-director-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .message-from-our-director-image-div{
+  background: #202020;
+}
+
+.dark-mode .message-from-our-director-image{
+  background: #202020;
+}
+
+.dark-mode .message-from-our-director-donate-button{
+  color: #202020;
+  background: white;
+}
+
+/* --- Events --- */
+
+.dark-mode .events-page{
+  background: #202020;
+}
+
+.dark-mode .events-page-background{
+  background: #202020;
+}
+
+.dark-mode .events-page-title{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .events-page-picture{
+  background: #202020;
+}
+
+.dark-mode .events-page-text-box{
+  background: #202020;
+}
+
+.dark-mode .events-page-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .events-page-button{
+  color: #202020;
+  background: white;
+}
+
+/* --- Contact Us --- */
+
+.dark-mode .contact-bg{
+  background: #202020;
+}
+
+.dark-mode .contact-head-container{
+  background: #202020;
+}
+
+.dark-mode .ivy-border-container{
+  background: #202020;
+}
+
+.dark-mode .ivy-border{
+  background: #202020;
+}
+
+.dark-mode .contact-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .contact-left-container{
+  background: #202020;
+}
+
+.dark-mode .contact-form{
+  background: #202020;
+}
+
+.dark-mode .midline{
+  background: #202020;
+}
+
+.dark-mode .contact-right-container{
+  background: #202020;
+}
+
+.dark-mode .contact-phone-container{
+  background: #202020;
+}
+
+.dark-mode .contact-logos{
+  background: #202020;
+}
+
+.dark-mode .contact-fax-container{
+  background: #202020;
+}
+
+.dark-mode .contact-fax-logo{
+  background: #202020;
+}
+
+.dark-mode .contact-fax-numbers{
+  background: #202020;
+}
+
+.dark-mode .contact-email-container{
+  background: #202020;
+}
+
+.dark-mode .contact-logos{
+  background: #202020;
+}
+
+/* --- Camps --- */
+
+.dark-mode .about-history-container{
+  background: #202020;
+}
+
+.dark-mode .about-history-container-tint{
+  background: #202020;
+}
+
+.dark-mode .about-history-bg{
+  background: #202020;
+}
+
+.dark-mode .camps-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .camps-summer-container{
+  background: #202020;
+}
+
+.dark-mode .camps-summer-container-tint{
+  background: #202020;
+}
+
+.dark-mode .camps-summer-bg{
+  background: #202020;
+}
+
+.dark-mode .camps-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .camps-special{
+  background: #202020;
+}
+
+/* --- Directions --- */
+
+.dark-mode .directions{
+  background: #202020;
+}
+
+.dark-mode .directions-main-up{
+  background: #202020;
+}
+
+.dark-mode .directions-main-up-left{
+  background: #202020;
+}
+
+.dark-mode .directions-main-up-left-header{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .directions-main-up-right{
+  background: #202020;
+}
+
+.dark-mode .directions-main-up-right-map{
+  background: #202020;
+}
+
+.dark-mode .directions-main-up-right-button{
+  background: #202020;
+}
+
+/* --- News --- */
+
+.dark-mode .news-bg{
+  background: #202020;
+}
+
+.dark-mode .news-accord-container{
+  background: #202020;
+}
+
+.dark-mode .news-accord-group{
+  background: #202020;
+}
+
+.dark-mode .news-accord{
+  background: #202020;
+}
+
+.dark-mode .news-container{
+  background: #202020;
+}
+
+/* --- Volunteer Opportunities --- */
+
+.dark-mode .volunteer-opportunities-page{
+  background: #202020;
+}
+
+.dark-mode .volunteer-opportunities-page-organization{
+  background: #202020;
+}
+
+.dark-mode .volunteer-opportunities-page-organization-1{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .volunteer-opportunities-page-organization-2{
+  background: #202020;
+}
+
+.dark-mode .volunteer-opportunities-page-organization-2-images{
+  background: #202020;
+}
+
+/* --- Programs --- */
+
+.dark-mode .program-bg-container{
+  background: #202020;
+}
+
+.dark-mode .program-bg{
+  background: #202020;
+  color:white;
+}
+
+
+.dark-mode .program-list-container{
+  background: #202020;
+}
+
+.dark-mode .program-list-item{
+  background: #202020;
+  color:white;
+}
+
+/* --- Facilities --- */
+
+.dark-mode .facility-bg-container{
+  background: #202020;
+}
+
+.dark-mode .facility-bg{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .facility-list-container{
+  background: #202020;
+}
+
+.dark-mode .facility-list-item{
+  background: #202020;
+  color:white;
+}
+
+/* --- Dining Hall --- */
+
+.dark-mode .dining-bg-container{
+  background: #202020;
+}
+
+.dark-mode .dining-bg{
+  background: #202020;
+}
+
+.dark-mode .building-container{
+  background: #202020;
+}
+
+.dark-mode .dining-hall-top{
+  background: #202020;
+}
+
+.dark-mode .dining-left-text{
+  background: #202020;
+  color:white;
+}
+
+
+.dark-mode .dining-right-img{
+  background: #202020;
+}
+
+.dark-mode .dining-hall-bottom{
+  background: #202020;
+}
+
+.dark-mode .dining-left-img-container{
+  background: #202020;
+}
+
+.dark-mode .dining-right-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .dining-right-text h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .dining-right-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .dining-list{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .room-capacity-container{
+  background: #202020;
+}
+
+.dark-mode .room-capacity-container h3{
+  background: #202020;
+  color:white;
+}
+
+/* --- Creative Center --- */
+
+.dark-mode .cc-bg-container{
+  background: #202020;
+}
+
+.dark-mode .cc-bg{
+  background: #202020;
+  color:white;
+}
+
+
+.dark-mode .cc-container{
+  background: #202020;
+}
+
+.dark-mode .cc-top-container{
+  background: #202020;
+}
+
+.dark-mode .cc-text-left{
+  background: #202020;
+  color:white;
+}
+
+
+.dark-mode .cc-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .cc-feature-container{
+  background: #202020;
+}
+
+.dark-mode .cc-feature-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .cc-list{
+  background: #202020;
+  color:white;
+}
+
+/* --- Retreat House --- */
+
+.dark-mode .grh-bg-container{
+  background: #202020;
+}
+
+.dark-mode .grh-bg{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .grh-container{
+  background: #202020;
+}
+
+.dark-mode .grh-top-container{
+  background: #202020;
+}
+
+.dark-mode .grh-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .grh-gallery{
+  background: #202020;
+}
+
+.dark-mode .grh-top-gal{
+  background: #202020;
+}
+
+.dark-mode .grh-mid-gal{
+  background: #202020;
+}
+
+/* --- Pavilion --- */
+
+.dark-mode .pavilion-bg-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-bg{
+  background: #202020;
+}
+
+.dark-mode .pavilion-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-top-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-text-left{
+  background: #202020;
+   color:white;
+}
+
+.dark-mode .pavilion-mid-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-img{
+  background: #202020;
+}
+
+.dark-mode .pavilion-feature-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-feature-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .pavilion-list{
+  background: #202020;
+   color:white;
+}
+
+
+.dark-mode .pavilion-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .pavilion-bottom-container h3{
+  background: #202020;
+  color:white;
+}
+
+/* --- Nurse Quarters --- */
+
+.dark-mode .nurse-bg-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-bg{
+  background: #202020;
+}
+
+.dark-mode .nurse-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-top-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-top-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-top-img{
+  background: #202020;
+}
+
+.dark-mode .nurse-text-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-midleft-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-midleft-txt-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-midleft-txt-container li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-midright-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-midright-txt-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-midright-txt-container li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-left-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-left-img{
+  background: #202020;
+}
+
+.dark-mode .nurse-right-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-right-txt-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-right-txt-container li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-right-container{
+  background: #202020;
+}
+
+.dark-mode .nurse-left-txt-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-left-txt-container h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-left-txt-container li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .nurse-right-img{
+  background: #202020;
+}
+
+/* --- Life Center --- */
+
+.dark-mode .life-bg-container{
+  background: #202020;
+}
+
+.dark-mode .life-bg{
+  background: #202020;
+}
+
+.dark-mode .life-container{
+  background: #202020;
+}
+
+.dark-mode .life-top-left-container{
+  background: #202020;
+}
+
+.dark-mode .life-top-left-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-top-right-img{
+  background: #202020;
+}
+
+.dark-mode .life-top-right-container{
+  background: #202020;
+}
+
+.dark-mode .life-top-left-img{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-top-right-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-text-container{
+  background: #202020;
+}
+
+.dark-mode .life-midleft-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-midleft-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-mid-img{
+  background: #202020;
+}
+
+.dark-mode .life-midright-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-midright-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-top-right-container{
+  background: #202020;
+}
+
+.dark-mode .life-top-right-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-top-right-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-top-left-img{
+  background: #202020;
+}
+
+.dark-mode .life-bottom-left-container{
+  background: #202020;
+}
+
+.dark-mode .life-bottom-right-img{
+  background: #202020;
+}
+
+.dark-mode .life-bottom-left-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .life-bottom-left-text li{
+  background: #202020;
+  color:white;
+}
+
+/* --- Residence Halls --- */
+
+.dark-mode .rh-bg-container{
+  background: #202020;
+}
+
+.dark-mode .rh-bg{
+  background: #202020;
+}
+
+.dark-mode .rh-container{
+  background: #202020;
+}
+
+.dark-mode .rh-top-container{
+  background: #202020;
+}
+
+.dark-mode .rh-top-text{
+  background: #202020;
+  color:white;
+}
+
+
+.dark-mode .rh-top-img{
+  background: #202020;
+}
+
+.dark-mode .rh-topmid-container{
+  background: #202020;
+}
+
+.dark-mode .rh-topmid-img{
+  background: #202020;
+}
+
+.dark-mode .rh-topmid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-topmid-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-mid-container{
+  background: #202020;
+}
+
+.dark-mode .rh-mid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-mid-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-mid-img{
+  background: #202020;
+}
+
+.dark-mode .rh-bottommid-container{
+  background: #202020;
+}
+
+.dark-mode .rh-bottommid-img{
+  background: #202020;
+}
+
+.dark-mode .rh-bottommid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-list-container{
+  background: #202020;
+}
+
+.dark-mode .rh-list-container li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .rh-bottom-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-bottom-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-bottom-img{
+  background: #202020;
+}
+
+.dark-mode .rh-capacity-container{
+  background: #202020;
+}
+
+.dark-mode .rh-capacity-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .rh-capacity-img{
+  background: #202020;
+}
+
+/* --- Amphitheater --- */
+
+.dark-mode .amp-bg-container{
+  background: #202020;
+}
+
+.dark-mode .amp-bg{
+  background: #202020;
+}
+
+.dark-mode .amp-container{
+  background: #202020;
+}
+
+.dark-mode .amp-top-container{
+  background: #202020;
+}
+
+.dark-mode .amp-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .amp-mid-container{
+  background: #202020;
+}
+
+.dark-mode .amp-mid-text{
+  background: #202020;
+}
+
+.dark-mode .amp-mid-text h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .amp-mid-text li{
+  background: #202020;
+  color:white;
+}
+
+/* --- Guest Cottage --- */
+
+.dark-mode .gc-bg-container{
+  background: #202020;
+}
+
+.dark-mode .gc-bg{
+  background: #202020;
+}
+
+.dark-mode .gc-container{
+  background: #202020;
+}
+
+.dark-mode .gc-top-container{
+  background: #202020;
+}
+
+.dark-mode .gc-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .gc-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .gc-bottom-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .gc-bottom-text h3{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .gc-bottom-text li{
+  background: #202020;
+  color:white;
+}
+
+/* --- Lake Shelter --- */
+
+.dark-mode .ls-bg-container{
+  background: #202020;
+}
+
+.dark-mode .ls-bg{
+  background: #202020;
+}
+
+.dark-mode .ls-container{
+  background: #202020;
+}
+
+.dark-mode .ls-top-container{
+  background: #202020;
+}
+
+.dark-mode .ls-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .ls-mid-container{
+  background: #202020;
+}
+
+.dark-mode .ls-mid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .ls-mid-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .ls-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .ls-lake-view-img{
+  background: #202020;
+}
+
+/* --- Outpost Camp --- */
+
+.dark-mode .oc-bg-container{
+  background: #202020;
+}
+
+.dark-mode .oc-bg{
+  background: #202020;
+}
+
+.dark-mode .oc-container{
+  background: #202020;
+}
+
+.dark-mode .oc-top-container{
+  background: #202020;
+}
+
+.dark-mode .oc-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .oc-top-img{
+  background: #202020;
+}
+
+.dark-mode .oc-mid-container{
+  background: #202020;
+}
+
+.dark-mode .oc-mid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .oc-mid-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .oc-bottom-container{
+  background: #202020;
+}
+
+/* --- Facilities --- */
+
+.dark-mode .lodge-bg-container{
+  background: #202020;
+}
+
+.dark-mode .lodge-bg{
+  background: #202020;
+}
+
+.dark-mode .lodge-container{
+  background: #202020;
+}
+
+.dark-mode .lodge-top-container{
+  background: #202020;
+}
+
+.dark-mode .lodge-top-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .lodge-mid-container{
+  background: #202020;
+}
+
+.dark-mode .lodge-mid-text{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .lodge-mid-text li{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .lodge-bottom-container{
+  background: #202020;
+}
+
+.dark-mode .lodge-bottom-text{
+  background: #202020;
+  color:white;
+}
 
 /* --- Large Text --- */
 .large-text .top-text{
@@ -517,12 +1604,14 @@ background: #202020;
 .large-text .dream{
   font-size: 5em;
 }
-.large-text .dyslexia .home-page-mission-background-text{
-  font-size: 1em !important;
+.large-text.dyslexia .home-page-mission-background-text {
+  font-size: 2.3em;
  }
- .large-text .home-page-mission-background-text{
+
+.large-text .home-page-mission-background-text{
   font-size: 2.5em;
  }
+
   .large-text .home-page-mission-background-title{
   font-size: 2.2em;
  }
