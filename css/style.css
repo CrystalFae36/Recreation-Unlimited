@@ -3536,9 +3536,7 @@ footer a {
     color: #d3c874;   
     margin-bottom: .5vw;
 }
-.hide{
-    display: none;
-}
+
 .camps_bigcontain {
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
@@ -3574,7 +3572,9 @@ footer a {
     -o-border-radius: 3vw;
 
 }
-
+.camps_smallcontain.hide{
+    display: none;
+}
 .camps_smallcontain button {                                                                                                                                                                              
     padding: .6vw;
     padding-right: 2.2vw;

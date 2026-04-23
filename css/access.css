@@ -272,6 +272,7 @@ background: #202020;
 
 .dark-mode .dream{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .hat-fade{
@@ -288,6 +289,7 @@ background: #202020;
 
 .dark-mode .history{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .hat-img-container{
@@ -336,12 +338,28 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .camps-section h1{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .camps_bigcontain{
   background: #202020;
 }
 
 .dark-mode .camps_smallcontain{
   background: #202020;
+  color:white;
+}
+
+.dark-mode .camps_smallcontain h2{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .camps_smallcontain button{
+  color: #202020;
+  background: white;
 }
 
 .dark-mode .camps_smallcontain{
@@ -356,12 +374,69 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .see-our-camps h1{
+  background: #202020;
+  color: white;
+}
+
+.dark-mode .see-our-camps button{
+  color: #202020;
+  background: white;
+  border-color: #202020;
+}
+
+.dark-mode .soc_picholder{
+  background: #202020;
+}
+
+.dark-mode .soc_up {
+  background: #202020;
+}
+
+.dark-mode .soc_pic1 img{
+  border-color: #202020;
+}
+
+.dark-mode .soc_pic2 img{
+  border-color: #202020;
+}
+
+.dark-mode .soc_pic3 img{
+  border-color: #202020;
+}
+
+.dark-mode .soc_pic4 img{
+  border-color: #202020;
+}
+
 .dark-mode .whats-going-on{
   background: #202020;
 }
 
+.dark-mode .whats-going-on h1{
+  background: #202020;
+  color: white;
+}
+
 .dark-mode .wgo_smallcontain{
   background: #202020;
+  color: white;
+}
+
+.dark-mode .wgo_smallcontain h2{
+  background: #202020;
+  color: white;
+} 
+
+.dark-mode .wgo_smallcontain h3{
+  background: #202020;
+  color: white;
+} 
+
+.dark-mode .wgo_smallcontain button{
+  color: #202020;
+  background: white;
+  border-color: #202020;
 } 
 
 .dark-mode .wgo_bigcontain{
@@ -453,6 +528,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .lease-head-container h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .lease-blurb-top-container{
   background: #202020;
 }
@@ -482,6 +562,7 @@ background: #202020;
 
 .dark-mode .lease-blurb-subtext-container{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .lease-explore-bg-container lease-bg-tint{
@@ -490,6 +571,11 @@ background: #202020;
 
 .dark-mode .lease-explore-container{
   background: #202020;
+}
+
+.dark-mode .lease-explore-container h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .lease-button{
@@ -508,6 +594,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .lease-program-head-container h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .lease-button{
   color: #202020;
   background: white;
@@ -519,6 +610,11 @@ background: #202020;
 
 .dark-mode .lease-addition-bg-container{
   background: #202020;
+}
+
+.dark-mode .lease-addition-bg-container h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .lease-addition-button{
@@ -650,6 +746,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .contact-form input{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .midline{
   background: #202020;
 }
@@ -660,6 +761,11 @@ background: #202020;
 
 .dark-mode .contact-phone-container{
   background: #202020;
+}
+
+.dark-mode .contact-phone-container h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .contact-logos{
@@ -678,8 +784,18 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .contact-fax-numbers  h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .contact-email-container{
   background: #202020;
+}
+
+.dark-mode .contact-email-container h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .contact-logos{
@@ -703,6 +819,16 @@ background: #202020;
 .dark-mode .camps-txt-container{
   background: #202020;
   color:white;
+}
+
+.dark-mode .camps-txt-container h1{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .camps-txt-container button{
+  color: #202020;
+  background:white;
 }
 
 .dark-mode .camps-summer-container{
@@ -749,6 +875,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .directions-main-up-right div button{
+  color: #202020;
+  background:white;
+}
+
 .dark-mode .directions-main-up-right-map{
   background: #202020;
 }
@@ -773,10 +904,16 @@ background: #202020;
 
 .dark-mode .news-accord{
   background: #202020;
+  color:white;
 }
 
 .dark-mode .news-container{
   background: #202020;
+}
+
+.dark-mode .news-container p{
+  background: #202020;
+  color:white;
 }
 
 /* --- Volunteer Opportunities --- */
@@ -831,6 +968,10 @@ background: #202020;
 
 .dark-mode .facility-bg{
   background: #202020;
+}
+
+.dark-mode .facility-bg h2{
+  background: #202020;
   color:white;
 }
 
@@ -843,6 +984,11 @@ background: #202020;
   color:white;
 }
 
+.dark-mode .facility-list-item a{
+  background: #202020;
+  color:white;
+}
+
 /* --- Dining Hall --- */
 
 .dark-mode .dining-bg-container{
@@ -851,6 +997,11 @@ background: #202020;
 
 .dark-mode .dining-bg{
   background: #202020;
+}
+
+.dark-mode .dining-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .building-container{
@@ -919,6 +1070,11 @@ background: #202020;
   color:white;
 }
 
+.dark-mode .cc-bg h2{
+  background: #202020;
+  color:white;
+}
+
 
 .dark-mode .cc-container{
   background: #202020;
@@ -963,6 +1119,11 @@ background: #202020;
   color:white;
 }
 
+.dark-mode .grh-bg h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .grh-container{
   background: #202020;
 }
@@ -996,6 +1157,11 @@ background: #202020;
 
 .dark-mode .pavilion-bg{
   background: #202020;
+}
+
+.dark-mode .pavilion-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .pavilion-container{
@@ -1051,6 +1217,11 @@ background: #202020;
 
 .dark-mode .nurse-bg{
   background: #202020;
+}
+
+.dark-mode .nurse-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .nurse-container{
@@ -1160,6 +1331,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .life-bg h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .life-container{
   background: #202020;
 }
@@ -1265,6 +1441,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .rh-bg h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .rh-container{
   background: #202020;
 }
@@ -1277,7 +1458,6 @@ background: #202020;
   background: #202020;
   color:white;
 }
-
 
 .dark-mode .rh-top-img{
   background: #202020;
@@ -1382,6 +1562,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .amp-bg h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .amp-container{
   background: #202020;
 }
@@ -1421,6 +1606,11 @@ background: #202020;
 
 .dark-mode .gc-bg{
   background: #202020;
+}
+
+.dark-mode .gc-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .gc-container{
@@ -1463,6 +1653,11 @@ background: #202020;
 
 .dark-mode .ls-bg{
   background: #202020;
+}
+
+.dark-mode .ls-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .ls-container{
@@ -1510,6 +1705,11 @@ background: #202020;
   background: #202020;
 }
 
+.dark-mode .oc-bg h2{
+  background: #202020;
+  color:white;
+}
+
 .dark-mode .oc-container{
   background: #202020;
 }
@@ -1545,7 +1745,7 @@ background: #202020;
   background: #202020;
 }
 
-/* --- Facilities --- */
+/* --- Lodge --- */
 
 .dark-mode .lodge-bg-container{
   background: #202020;
@@ -1553,6 +1753,11 @@ background: #202020;
 
 .dark-mode .lodge-bg{
   background: #202020;
+}
+
+.dark-mode .lodge-bg h2{
+  background: #202020;
+  color:white;
 }
 
 .dark-mode .lodge-container{
@@ -1587,6 +1792,38 @@ background: #202020;
 }
 
 .dark-mode .lodge-bottom-text{
+  background: #202020;
+  color:white;
+}
+
+/* --- Programs --- */
+
+.dark-mode .program-bg-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .program-bg{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .program-bg h2{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .program-list-container{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .program-list-item{
+  background: #202020;
+  color:white;
+}
+
+.dark-mode .program-list-item a{
   background: #202020;
   color:white;
 }
