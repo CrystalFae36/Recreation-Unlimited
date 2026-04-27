@@ -3534,7 +3534,6 @@ footer a {
     font-size: 7vw;
     font-family: 'Milky', Helvetica, sans-serif;
     color: #d3c874;   
-    margin-bottom: .5vw;
 }
 
 .camps_bigcontain {
@@ -3544,27 +3543,29 @@ footer a {
     -ms-border-radius: 3vw;
     -o-border-radius: 3vw;
     position: relative;
-    left:40vw;
     display: flex;
     background-color: #2E5E1E;
-    width: 120%;
+    width: 90vw;
     margin-bottom: 4vw;
+    overflow: hidden;
 }
 
 .camps_smallcontain {
+    left:2.5vw;
     color: #CFCAA5;
     font-family: 'Milky', Helvetica, sans-serif;
     padding-top: .5vw;
     background-color: #224B13;
-    width: 30%;
+    width: 40vw;
+    height:70vw;
     position: relative;
     display: inline-block;
     margin: 1vw;
     padding: 2vw;
     padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.2vw;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
     -moz-border-radius: 3vw;
@@ -3580,9 +3581,10 @@ footer a {
     padding-right: 2.2vw;
     font-family: 'Milky', Helvetica, sans-serif;
     padding-left: 2.2vw;
-    font-size: 1.5vw;
+    font-size: 3vw;
     color: #CFCAA5;
     cursor:pointer;
+    margin-bottom: 10w;
     border-style: solid;
     background-color: #16300E;
     border-color: #021e02;
@@ -3596,7 +3598,7 @@ footer a {
 
 
 .see-our-camps {
-    height: 47vw;
+    height: 100vw;
     width: 100%;
     background-color: #FFFBDB;
     
@@ -3606,7 +3608,7 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     text-align: center;
     color:#92C87E;
-    font-size: 4vw;
+    font-size: 10vw;
 }
 .see-our-camps button{
     margin-top: 1.5vw;
@@ -3639,8 +3641,8 @@ footer a {
 
 .soc_pic1 img {
     position: relative;
-    left:16vw;
-    height: 23vw;
+    left:43vw;
+    height: 43vw;
     border-color:#0E4729;
     border-style: solid;
     border-width: .5vw;
@@ -3652,9 +3654,10 @@ footer a {
 }
 
 .soc_pic2 img {
-    width: 22vw;
+    width: 32vw;
     position: relative;
-    right: 43vw;
+    right: 73vw;
+    top:40vw;
     border-color: #3C7A27;
     border-style: solid;
     border-width: .4vw;
@@ -3666,9 +3669,10 @@ footer a {
 }
 
 .soc_pic3 img {
-    width: 20vw;
+    width: 30vw;
     position: relative;
     right: 41.8vw;
+    top:40vw;
     border-color: #2E5E1E;
     border-style: solid;
     border-width: .4vw;
