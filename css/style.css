@@ -3343,6 +3343,7 @@ h1.volunteer-opportunities-page-organization-1{
 .hide{
     display: block;
 }
+
 @media only screen and (max-width: 700px) {
 
     footer p {
@@ -3361,6 +3362,7 @@ h1.volunteer-opportunities-page-organization-1{
     padding: 5vw;
     text-align: center;
     padding-top: 4vw;
+    margin-top: 2vw;
     font-size: 1.5vw;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
@@ -3598,7 +3600,7 @@ footer a {
 
 
 .see-our-camps {
-    height: 100vw;
+    height: 110vw;
     width: 100%;
     background-color: #FFFBDB;
     
@@ -3619,8 +3621,9 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     position: relative;
     cursor:pointer;
-    left:36.5vw;
-    font-size: 3vw;
+    left:30vw;
+    top:35vw;
+    font-size: 5vw;
     padding: .5vw;
     border-radius: 2vw;
     -webkit-border-radius: 2vw;
@@ -3641,7 +3644,7 @@ footer a {
 
 .soc_pic1 img {
     position: relative;
-    left:43vw;
+    left:60vw;
     height: 43vw;
     border-color:#0E4729;
     border-style: solid;
@@ -3656,8 +3659,8 @@ footer a {
 .soc_pic2 img {
     width: 32vw;
     position: relative;
-    right: 73vw;
-    top:40vw;
+    right: 78vw;
+    top:35vw;
     border-color: #3C7A27;
     border-style: solid;
     border-width: .4vw;
@@ -3669,10 +3672,10 @@ footer a {
 }
 
 .soc_pic3 img {
-    width: 30vw;
+    width: 35vw;
     position: relative;
-    right: 41.8vw;
-    top:40vw;
+    right: 43.8vw;
+    top:10vw;
     border-color: #2E5E1E;
     border-style: solid;
     border-width: .4vw;
@@ -3684,18 +3687,21 @@ footer a {
 
 }
 
-.soc_pic4 img {
+.soc_pic4.hide{
     position: relative;
-    left: 26.4vw;
-    height: 27vw;
+    right: 37vw;
+    top:42vw;
     border-color: #224B13;
-    border-style: solid;
+    border-style:none;
     border-width: .6vw;
     border-radius: 3vw;
     -webkit-border-radius: 3vw;
     -moz-border-radius: 3vw;
     -ms-border-radius: 3vw;
     -o-border-radius: 3vw;
+}
+.soc_pic4 img{
+    height: 37vw;
 }
 
 .soc_up {
@@ -3707,7 +3713,7 @@ footer a {
 
 .whats-going-on {
     display: flex;
-    height: 47vw;
+    height: 100vw;
     width: 100%;
     background-color: #ADDAE3;
     flex-direction: column;
@@ -3718,7 +3724,7 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     text-align: center;
     color:#5C878F;
-    font-size: 4vw;
+    font-size: 9vw;
     margin-bottom: 1VW;
 }
 
@@ -3726,7 +3732,7 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     text-align: center;
     color:#4E4E4E;
-    font-size: 3.5vw;
+    font-size: 6vw;
     margin-bottom: 1VW;
 }
 
@@ -3734,8 +3740,8 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     text-align: center;
     color:   #464545;
-    font-size: 5vw;
-    margin-top: 1.5VW;
+    font-size: 8vw;
+    margin-top: 16VW;
     margin-bottom:1vw ;
 }
 
@@ -3749,7 +3755,8 @@ footer a {
     font-family: 'Milky', Helvetica, sans-serif;
     padding-top: .5vw;
     background-color: white;
-    width: 35%;
+    width: 35vw;
+    height:70vw;
     position: relative;
     display: inline-block;
     margin: 1vw;
@@ -3757,12 +3764,15 @@ footer a {
     padding-top: 2vw;
     padding-bottom: 2vw;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.7vw;
     border-radius:1vw;
     -webkit-border-radius:1vw;
     -moz-border-radius:1vw;
     -ms-border-radius:1vw;
     -o-border-radius:1vw;
+}
+.wgo_smallcontain.hide{
+display:none;
 }
 .wgo_smallcontain button{
       margin-top: 2.5vw;
@@ -3770,7 +3780,7 @@ footer a {
     background-color:#B4B4B4 ;
     border-width: .6vw;
     font-family: 'Milky', Helvetica, sans-serif;
-    font-size: 3vw;
+    font-size: 5vw;
     padding: 1.5vw;
     cursor:pointer;
     padding-right: 2.5vw;
